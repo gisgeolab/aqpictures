@@ -7,6 +7,6 @@
 
 ---
 ## Licensing
-- Code in this repository is released under the MIT License (see LICENSE).
-- Data files in the `data/` directory are released under the CC BY 4.0 License (see LICENSE_DATA).
+- Code in this repository is released under the MIT License (see [LICENSE]()).
+- Data files in the `data/` directory are released under the CC BY 4.0 License (see [LICENSE_DATA](https://github.com/gisgeolab/aqpicture/blob/main/data/LICENSE_DATA)).
 
