@@ -1,5 +1,5 @@
 # AQpictures – Air Quality from Pictures
-
+<!-- 
 This repository provides a toolkit including **sample data and open-source code** supporting the implementation, testing, and benchmarking of **image-based methods for particulate matter (PM) estimation**, as described in the *AQpictures* project developed within the **ISPRS Scientific Initiatives 2025** framework.
 
 The goal of the repository is to support **replicability, comparison, and reuse** of image-based air quality estimation methods by providing:
@@ -26,14 +26,15 @@ aqpictures/
 ## References
 
 ...TBD...
-<!-- 
+
 ---
 #### Scientific toolkit (open repository with analysis-ready data, methods source code scripts and documentation) of the AQpicture ISPRS SI 2025 project
+-->
 ---
 
 > 🚧 **Status:** This repository is currently under construction.  
 > Features, data, and documentation are being actively updated.
--->
+
 ---
 ## Licensing
 - Code in this repository is released under the MIT License (see [LICENSE](https://github.com/gisgeolab/aqpicture/blob/main/LICENSE)).
