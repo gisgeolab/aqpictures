@@ -1,0 +1,27 @@
+sensor_type,measurement_unit,station_id,station_name,altitude,province,is_historical,date_start,date_stop,utm_north,utm_east,latitude,longitude,sensor_id
+Temperature,°C,100,Milano Lambrate,120,MI,False,2001-06-29,,5038171.0000,520120.0000,45.4968,9.2575,2001
+Temperature,°C,109,Sant'Angelo Lodigiano,60,LO,False,1993-03-11,,5011978.0000,529787.0000,45.2607,9.3797,2122
+Temperature,°C,114,Landriano Cascina Marianna,88,PV,False,2005-09-29,,5018600.0000,520938.0000,45.3206,9.2672,2187
+Temperature,°C,123,Cavenago d'Adda,67,LO,False,2002-08-08,,5013018.0000,544138.0000,45.2693,9.5627,2327
+Temperature,°C,137,Rivolta d'Adda Ist. Spallanzani,102,CR,False,1993-06-09,,5032417.0000,540720.0000,45.4441,9.5207,2497
+Temperature,°C,147,Cinisello Balsamo Parco Nord,142,MI,False,2002-05-30,,5043257.0000,516051.0000,45.5427,9.2056,4058
+Temperature,°C,148,Arconate SMR,182,MI,False,2002-07-02,,5043898.0000,488082.0000,45.5485,8.8473,4066
+Temperature,°C,595,Filago v.Don Milani,190,BG,False,1991-12-07,,5053519.0000,543342.0000,45.6339,9.5561,5863
+Temperature,°C,620,Milano v.Brera,122,MI,False,1990-03-19,,5035365.0000,514782.0000,45.4717,9.1891,5897
+Temperature,°C,525,Corsico v.le Italia,119,MI,False,1997-02-12,,5031403.0000,507619.0000,45.4361,9.0974,5903
+Temperature,°C,502,Milano v.Juvara,122,MI,False,1989-01-01,,5035546.0000,517377.0000,45.4732,9.2223,5909
+Temperature,°C,535,Lacchiarella v.Molise,97,MI,False,1998-09-15,,5019010.0000,510542.0000,45.3245,9.1345,5910
+Temperature,°C,501,Milano v.Marche,129,MI,False,1989-01-01,,5038105.0000,514918.0000,45.4963,9.1909,5911
+Temperature,°C,614,Rodano v.Turati,112,MI,False,1999-01-01,,5035511.0000,527631.0000,45.4726,9.3535,5917
+Temperature,°C,503,Milano P.zza Zavattari,122,MI,False,1989-01-01,,5035847.0000,511082.0000,45.4761,9.1418,5920
+Temperature,°C,687,Ferno v.Di Dio,215,VA,False,2006-11-05,,5051773.0000,481053.0000,45.6192,8.7570,7029
+Temperature,°C,869,Milano v.Feltre,127,MI,False,2000-07-05,,5037597.0000,519436.0000,45.4916,9.2487,8162
+Temperature,°C,886,Vigevano SS494,94,PV,False,2003-02-18,,5020886.0000,490573.0000,45.3414,8.8797,8196
+Temperature,°C,897,Busto Arsizio v.Rossini,242,VA,False,2003-03-26,,5052553.0000,486271.0000,45.6264,8.8239,8220
+Temperature,°C,554,Saronno v.Santuario,212,VA,False,2010-07-06,,5052646.0000,502058.0000,45.6274,9.0264,10551
+Temperature,°C,1899,Bereguardo Fornasetta,95,PV,False,2020-08-11,,5012143.0000,501719.0000,45.2628,9.0219,12716
+Temperature,°C,1510,Monza v.Monte Generoso,173,MB,False,2020-11-25,,5048372.0000,519174.0000,45.5886,9.2458,12755
+Temperature,°C,1511,Rescaldina,215,MI,False,2020-11-25,,5050479.0000,496327.0000,45.6078,8.9529,12757
+Temperature,°C,1512,Pogliano Milanese,160,MI,False,2020-11-25,,5042449.0000,500406.0000,45.5356,9.0052,12759
+Temperature,°C,1546,Rho Scalo Fiorenza - Prato,143,MI,False,2015-02-24,,5040479.0000,506867.0000,45.5178,9.0879,14742
+Temperature,°C,1874,Magenta cascina Mainaga,137,MI,False,2018-10-30,,5033848.0000,488617.0000,45.4581,8.8544,17488

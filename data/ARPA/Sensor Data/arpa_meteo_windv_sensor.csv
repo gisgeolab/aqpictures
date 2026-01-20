@@ -1,0 +1,20 @@
+sensor_type,measurement_unit,station_id,station_name,altitude,province,is_historical,date_start,date_stop,utm_north,utm_east,latitude,longitude,sensor_id
+Wind Velocity,m/s,100,Milano Lambrate,120,MI,False,2001-06-29,,5038171.0000,520120.0000,45.4968,9.2575,2003
+Wind Velocity,m/s,513,Trezzo sull'Adda v.Nenni,199,MI,False,2001-02-22,,5051253.0000,539618.0000,45.6137,9.5081,6137
+Wind Velocity,m/s,554,Saronno v.Santuario,212,VA,False,2010-07-06,,5052646.0000,502058.0000,45.6274,9.0264,10557
+Wind Velocity,m/s,123,Cavenago d'Adda,67,LO,False,2002-08-28,,5013018.0000,544138.0000,45.2693,9.5627,11131
+Wind Velocity,m/s,114,Landriano Cascina Marianna,88,PV,False,2005-09-29,,5018600.0000,520938.0000,45.3206,9.2672,11741
+Wind Velocity,m/s,137,Rivolta d'Adda Ist. Spallanzani,102,CR,False,1993-06-09,,5032417.0000,540720.0000,45.4441,9.5207,11750
+Wind Velocity,m/s,148,Arconate SMR,182,MI,False,2012-01-27,,5043898.0000,488082.0000,45.5485,8.8473,11818
+Wind Velocity,m/s,1899,Bereguardo Fornasetta,95,PV,False,2020-08-16,,5012143.0000,501719.0000,45.2628,9.0219,12722
+Wind Velocity,m/s,147,Cinisello Balsamo Parco Nord,142,MI,False,2012-03-09,,5043257.0000,516051.0000,45.5427,9.2056,14113
+Wind Velocity,m/s,1547,Rho Scalo Fiorenza - Tetto,143,MI,False,2015-02-24,,5040421.0000,507155.0000,45.5173,9.0916,14749
+Wind Velocity,m/s,1873,Abbiategrasso Strada Casalina,115,MI,False,2018-12-28,,5026799.0000,491367.0000,45.3947,8.8897,17481
+Wind Velocity,m/s,503,Milano P.zza Zavattari,122,MI,False,2013-09-23,,5035847.0000,511082.0000,45.4761,9.1418,19004
+Wind Velocity,m/s,620,Milano v.Brera,122,MI,False,2014-03-25,,5035365.0000,514782.0000,45.4717,9.1891,19007
+Wind Velocity,m/s,501,Milano v.Marche,129,MI,False,2013-10-29,,5038105.0000,514918.0000,45.4963,9.1909,19019
+Wind Velocity,m/s,687,Ferno v.Di Dio,215,VA,False,2013-11-11,,5051773.0000,481053.0000,45.6192,8.7570,19045
+Wind Velocity,m/s,525,Corsico v.le Italia,119,MI,False,2013-10-31,,5031403.0000,507619.0000,45.4361,9.0974,19058
+Wind Velocity,m/s,535,Lacchiarella v.Molise,97,MI,False,2013-10-30,,5019010.0000,510542.0000,45.3245,9.1345,19061
+Wind Velocity,m/s,595,Filago v.Don Milani,190,BG,False,2013-11-25,,5053519.0000,543342.0000,45.6339,9.5561,19148
+Wind Velocity,m/s,502,Milano v.Juvara,122,MI,False,2014-03-03,,5035546.0000,517377.0000,45.4732,9.2223,19242

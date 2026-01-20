@@ -1,0 +1,2914 @@
+<PAMDataset>
+  <PAMRasterBand band="1">
+    <Description>0_2025-01-01</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="2">
+    <Description>1_2025-01-02</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="3">
+    <Description>2_2025-01-03</Description>
+    <Histograms>
+      <HistItem>
+        <HistMin>19.44510869565217</HistMin>
+        <HistMax>70.05489130434782</HistMax>
+        <BucketCount>460</BucketCount>
+        <IncludeOutOfRange>0</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>1|0|0|0|0|3|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|2|0|0|0|0|2|0|0|0|2|0|0|0|0|4|0|0|0|6|0|0|0|0|3|0|0|0|0|2|0|0|0|6|0|0|0|0|2|0|0|0|5|0|0|0|0|9|0|0|0|1|0|0|0|0|7|0|0|0|5|0|0|0|0|9|0|0|0|6|0|0|0|0|7|0|0|0|0|5|0|0|0|11|0|0|0|0|15|0|0|0|10|0|0|0|0|6|0|0|0|5|0|0|0|0|10|0|0|0|11|0|0|0|0|1|0|0|0|5|0|0|0|0|11|0|0|0|0|10|0|0|0|6|0|0|0|0|13|0|0|0|13|0|0|0|0|14|0|0|0|14|0|0|0|0|5|0|0|0|14|0|0|0|0|9|0|0|0|12|0|0|0|0|8|0|0|0|0|17|0|0|0|11|0|0|0|0|5|0|0|0|8|0|0|0|0|9|0|0|0|6|0|0|0|0|12|0|0|0|6|0|0|0|0|8|0|0|0|10|0|0|0|0|11|0|0|0|9|0|0|0|0|7|0|0|0|0|5|0|0|0|4|0|0|0|0|4|0|0|0|3|0|0|0|0|3|0|0|0|2|0|0|0|0|4|0|0|0|6|0|0|0|0|0|0|0|0|2|0|0|0|0|0|0|0|0|0|2|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|3|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|2|0|0|0|0|2|0|0|0|0|2|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|1</HistCounts>
+      </HistItem>
+    </Histograms>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">19.5</MDI>
+      <MDI key="STATISTICS_MAXIMUM">70</MDI>
+      <MDI key="STATISTICS_MEAN">38.839130434783</MDI>
+      <MDI key="STATISTICS_STDDEV">8.5671383853316</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="4">
+    <Description>3_2025-01-04</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="5">
+    <Description>4_2025-01-05</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="6">
+    <Description>5_2025-01-06</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="7">
+    <Description>6_2025-01-07</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="8">
+    <Description>7_2025-01-08</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="9">
+    <Description>8_2025-01-09</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="10">
+    <Description>9_2025-01-10</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">56</MDI>
+      <MDI key="STATISTICS_MAXIMUM">211</MDI>
+      <MDI key="STATISTICS_MEAN">95.813299232737</MDI>
+      <MDI key="STATISTICS_STDDEV">29.474223462304</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">85</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="11">
+    <Description>10_2025-01-11</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_MAXIMUM">20</MDI>
+      <MDI key="STATISTICS_MEAN">4.5357142857143</MDI>
+      <MDI key="STATISTICS_STDDEV">6.9512698883891</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">6.087</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="12">
+    <Description>11_2025-01-12</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">23</MDI>
+      <MDI key="STATISTICS_MAXIMUM">104</MDI>
+      <MDI key="STATISTICS_MEAN">75.908695652174</MDI>
+      <MDI key="STATISTICS_STDDEV">13.106848957817</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="13">
+    <Description>12_2025-01-13</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">43.5</MDI>
+      <MDI key="STATISTICS_MAXIMUM">126</MDI>
+      <MDI key="STATISTICS_MEAN">85.820652173913</MDI>
+      <MDI key="STATISTICS_STDDEV">15.450408310656</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="14">
+    <Description>13_2025-01-14</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">38</MDI>
+      <MDI key="STATISTICS_MAXIMUM">145</MDI>
+      <MDI key="STATISTICS_MEAN">86.457608695652</MDI>
+      <MDI key="STATISTICS_STDDEV">21.461434968334</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="15">
+    <Description>14_2025-01-15</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">26.5</MDI>
+      <MDI key="STATISTICS_MAXIMUM">100</MDI>
+      <MDI key="STATISTICS_MEAN">65.259782608696</MDI>
+      <MDI key="STATISTICS_STDDEV">16.054743710347</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="16">
+    <Description>15_2025-01-16</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">56</MDI>
+      <MDI key="STATISTICS_MAXIMUM">108.66666666667</MDI>
+      <MDI key="STATISTICS_MEAN">79.204347826087</MDI>
+      <MDI key="STATISTICS_STDDEV">10.627528079336</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="17">
+    <Description>16_2025-01-17</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">131</MDI>
+      <MDI key="STATISTICS_MAXIMUM">385</MDI>
+      <MDI key="STATISTICS_MEAN">197.45671981777</MDI>
+      <MDI key="STATISTICS_STDDEV">41.947295211646</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">95.43</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="18">
+    <Description>17_2025-01-18</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">58</MDI>
+      <MDI key="STATISTICS_MAXIMUM">210.5</MDI>
+      <MDI key="STATISTICS_MEAN">98.159782608696</MDI>
+      <MDI key="STATISTICS_STDDEV">25.046869368648</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="19">
+    <Description>18_2025-01-19</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="20">
+    <Description>19_2025-01-20</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="21">
+    <Description>20_2025-01-21</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">208</MDI>
+      <MDI key="STATISTICS_MAXIMUM">236</MDI>
+      <MDI key="STATISTICS_MEAN">222</MDI>
+      <MDI key="STATISTICS_STDDEV">9.9570506247009</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">1.522</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="22">
+    <Description>21_2025-01-22</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="23">
+    <Description>22_2025-01-23</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="24">
+    <Description>23_2025-01-24</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">97</MDI>
+      <MDI key="STATISTICS_MAXIMUM">321</MDI>
+      <MDI key="STATISTICS_MEAN">156.80113636364</MDI>
+      <MDI key="STATISTICS_STDDEV">45.253110124956</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">57.39</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="25">
+    <Description>24_2025-01-25</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="26">
+    <Description>25_2025-01-26</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="27">
+    <Description>26_2025-01-27</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="28">
+    <Description>27_2025-01-28</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">106</MDI>
+      <MDI key="STATISTICS_MAXIMUM">339</MDI>
+      <MDI key="STATISTICS_MEAN">217.96551724138</MDI>
+      <MDI key="STATISTICS_STDDEV">62.175215573643</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">6.304</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="29">
+    <Description>28_2025-01-29</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">97</MDI>
+      <MDI key="STATISTICS_MAXIMUM">228</MDI>
+      <MDI key="STATISTICS_MEAN">161.54176072235</MDI>
+      <MDI key="STATISTICS_STDDEV">29.065135748646</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">96.3</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="30">
+    <Description>29_2025-01-30</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">254</MDI>
+      <MDI key="STATISTICS_MAXIMUM">463</MDI>
+      <MDI key="STATISTICS_MEAN">350.41224489796</MDI>
+      <MDI key="STATISTICS_STDDEV">34.488410550609</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">53.26</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="31">
+    <Description>30_2025-01-31</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="32">
+    <Description>31_2025-02-01</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="33">
+    <Description>32_2025-02-02</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">15</MDI>
+      <MDI key="STATISTICS_MAXIMUM">204.5</MDI>
+      <MDI key="STATISTICS_MEAN">119.17945906433</MDI>
+      <MDI key="STATISTICS_STDDEV">29.698856388084</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">99.13</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="34">
+    <Description>33_2025-02-03</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">38.5</MDI>
+      <MDI key="STATISTICS_MAXIMUM">229</MDI>
+      <MDI key="STATISTICS_MEAN">98.91847826087</MDI>
+      <MDI key="STATISTICS_STDDEV">39.916336830845</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="35">
+    <Description>34_2025-02-04</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">182</MDI>
+      <MDI key="STATISTICS_MAXIMUM">292</MDI>
+      <MDI key="STATISTICS_MEAN">221.48043478261</MDI>
+      <MDI key="STATISTICS_STDDEV">20.768434656272</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="36">
+    <Description>35_2025-02-05</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">134</MDI>
+      <MDI key="STATISTICS_MAXIMUM">303.66666666667</MDI>
+      <MDI key="STATISTICS_MEAN">206.9534368071</MDI>
+      <MDI key="STATISTICS_STDDEV">35.853961815476</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">98.04</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="37">
+    <Description>36_2025-02-06</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">119</MDI>
+      <MDI key="STATISTICS_MAXIMUM">331</MDI>
+      <MDI key="STATISTICS_MEAN">191.01555023923</MDI>
+      <MDI key="STATISTICS_STDDEV">38.686775831268</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">90.87</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="38">
+    <Description>37_2025-02-07</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="39">
+    <Description>38_2025-02-08</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="40">
+    <Description>39_2025-02-09</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="41">
+    <Description>40_2025-02-10</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="42">
+    <Description>41_2025-02-11</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="43">
+    <Description>42_2025-02-12</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="44">
+    <Description>43_2025-02-13</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="45">
+    <Description>44_2025-02-14</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="46">
+    <Description>45_2025-02-15</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">84</MDI>
+      <MDI key="STATISTICS_MAXIMUM">229</MDI>
+      <MDI key="STATISTICS_MEAN">155.3768115942</MDI>
+      <MDI key="STATISTICS_STDDEV">30.730013629352</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="47">
+    <Description>46_2025-02-16</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="48">
+    <Description>47_2025-02-17</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="49">
+    <Description>48_2025-02-18</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="50">
+    <Description>49_2025-02-19</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="51">
+    <Description>50_2025-02-20</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">253</MDI>
+      <MDI key="STATISTICS_MAXIMUM">408.5</MDI>
+      <MDI key="STATISTICS_MEAN">341.09565217391</MDI>
+      <MDI key="STATISTICS_STDDEV">28.116949182619</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="52">
+    <Description>51_2025-02-21</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">184</MDI>
+      <MDI key="STATISTICS_MAXIMUM">295</MDI>
+      <MDI key="STATISTICS_MEAN">218.95280898876</MDI>
+      <MDI key="STATISTICS_STDDEV">19.776618187674</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">96.74</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="53">
+    <Description>52_2025-02-22</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="54">
+    <Description>53_2025-02-23</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="55">
+    <Description>54_2025-02-24</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="56">
+    <Description>55_2025-02-25</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="57">
+    <Description>56_2025-02-26</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="58">
+    <Description>57_2025-02-27</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">30</MDI>
+      <MDI key="STATISTICS_MAXIMUM">381</MDI>
+      <MDI key="STATISTICS_MEAN">188.8663003663</MDI>
+      <MDI key="STATISTICS_STDDEV">74.339111865689</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">98.91</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="59">
+    <Description>58_2025-02-28</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="60">
+    <Description>59_2025-03-01</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">264</MDI>
+      <MDI key="STATISTICS_MAXIMUM">379</MDI>
+      <MDI key="STATISTICS_MEAN">305.45833333333</MDI>
+      <MDI key="STATISTICS_STDDEV">30.969042562246</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">5.217</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="61">
+    <Description>60_2025-03-02</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">118</MDI>
+      <MDI key="STATISTICS_MAXIMUM">231</MDI>
+      <MDI key="STATISTICS_MEAN">151.84761904762</MDI>
+      <MDI key="STATISTICS_STDDEV">15.654319928579</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">91.3</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="62">
+    <Description>61_2025-03-03</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">14</MDI>
+      <MDI key="STATISTICS_MAXIMUM">137.5</MDI>
+      <MDI key="STATISTICS_MEAN">65.30652173913</MDI>
+      <MDI key="STATISTICS_STDDEV">16.491452360092</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="63">
+    <Description>62_2025-03-04</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">113.5</MDI>
+      <MDI key="STATISTICS_MAXIMUM">247</MDI>
+      <MDI key="STATISTICS_MEAN">194.40833333333</MDI>
+      <MDI key="STATISTICS_STDDEV">17.153181438267</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="64">
+    <Description>63_2025-03-05</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">64</MDI>
+      <MDI key="STATISTICS_MAXIMUM">132</MDI>
+      <MDI key="STATISTICS_MEAN">96.09384057971</MDI>
+      <MDI key="STATISTICS_STDDEV">11.888179621731</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="65">
+    <Description>64_2025-03-06</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">95.5</MDI>
+      <MDI key="STATISTICS_MAXIMUM">199</MDI>
+      <MDI key="STATISTICS_MEAN">156.11413043478</MDI>
+      <MDI key="STATISTICS_STDDEV">14.562830916143</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="66">
+    <Description>65_2025-03-07</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">192</MDI>
+      <MDI key="STATISTICS_MAXIMUM">356</MDI>
+      <MDI key="STATISTICS_MEAN">260.4902173913</MDI>
+      <MDI key="STATISTICS_STDDEV">19.51330125939</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="67">
+    <Description>66_2025-03-08</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">153</MDI>
+      <MDI key="STATISTICS_MAXIMUM">303.5</MDI>
+      <MDI key="STATISTICS_MEAN">197.92717391304</MDI>
+      <MDI key="STATISTICS_STDDEV">24.327534513211</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="68">
+    <Description>67_2025-03-09</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="69">
+    <Description>68_2025-03-10</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="70">
+    <Description>69_2025-03-11</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="71">
+    <Description>70_2025-03-12</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="72">
+    <Description>71_2025-03-13</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">196</MDI>
+      <MDI key="STATISTICS_MAXIMUM">450</MDI>
+      <MDI key="STATISTICS_MEAN">300.39655172414</MDI>
+      <MDI key="STATISTICS_STDDEV">57.78137740065</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">12.61</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="73">
+    <Description>72_2025-03-14</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="74">
+    <Description>73_2025-03-15</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="75">
+    <Description>74_2025-03-16</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="76">
+    <Description>75_2025-03-17</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">37.5</MDI>
+      <MDI key="STATISTICS_MAXIMUM">156</MDI>
+      <MDI key="STATISTICS_MEAN">96.397826086957</MDI>
+      <MDI key="STATISTICS_STDDEV">26.228001043777</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="77">
+    <Description>76_2025-03-18</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">125</MDI>
+      <MDI key="STATISTICS_MAXIMUM">353</MDI>
+      <MDI key="STATISTICS_MEAN">196.27659574468</MDI>
+      <MDI key="STATISTICS_STDDEV">55.114079804224</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">20.43</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="78">
+    <Description>77_2025-03-19</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">33</MDI>
+      <MDI key="STATISTICS_MAXIMUM">243</MDI>
+      <MDI key="STATISTICS_MEAN">137.40217391304</MDI>
+      <MDI key="STATISTICS_STDDEV">25.818012663309</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="79">
+    <Description>78_2025-03-20</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">127</MDI>
+      <MDI key="STATISTICS_MAXIMUM">196</MDI>
+      <MDI key="STATISTICS_MEAN">156.73369565217</MDI>
+      <MDI key="STATISTICS_STDDEV">12.061583618482</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="80">
+    <Description>79_2025-03-21</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="81">
+    <Description>80_2025-03-22</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="82">
+    <Description>81_2025-03-23</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="83">
+    <Description>82_2025-03-24</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_MAXIMUM">392</MDI>
+      <MDI key="STATISTICS_MEAN">200.02923976608</MDI>
+      <MDI key="STATISTICS_STDDEV">80.861908633442</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">37.17</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="84">
+    <Description>83_2025-03-25</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">77</MDI>
+      <MDI key="STATISTICS_MAXIMUM">272</MDI>
+      <MDI key="STATISTICS_MEAN">172.43435448578</MDI>
+      <MDI key="STATISTICS_STDDEV">36.130484799584</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">99.35</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="85">
+    <Description>84_2025-03-26</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">12</MDI>
+      <MDI key="STATISTICS_MAXIMUM">380</MDI>
+      <MDI key="STATISTICS_MEAN">145.29770114943</MDI>
+      <MDI key="STATISTICS_STDDEV">80.830270557468</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">94.57</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="86">
+    <Description>85_2025-03-27</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">271</MDI>
+      <MDI key="STATISTICS_MAXIMUM">432</MDI>
+      <MDI key="STATISTICS_MEAN">345.05882352941</MDI>
+      <MDI key="STATISTICS_STDDEV">43.766049947736</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">7.391</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="87">
+    <Description>86_2025-03-28</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">75</MDI>
+      <MDI key="STATISTICS_MAXIMUM">258</MDI>
+      <MDI key="STATISTICS_MEAN">112.52194357367</MDI>
+      <MDI key="STATISTICS_STDDEV">23.12544815426</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">69.35</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="88">
+    <Description>87_2025-03-29</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">573</MDI>
+      <MDI key="STATISTICS_MAXIMUM">573</MDI>
+      <MDI key="STATISTICS_MEAN">573</MDI>
+      <MDI key="STATISTICS_STDDEV">0</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">0.2174</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="89">
+    <Description>88_2025-03-30</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">35</MDI>
+      <MDI key="STATISTICS_MAXIMUM">311</MDI>
+      <MDI key="STATISTICS_MEAN">120.81927710843</MDI>
+      <MDI key="STATISTICS_STDDEV">53.089863479733</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">18.04</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="90">
+    <Description>89_2025-03-31</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_MAXIMUM">56</MDI>
+      <MDI key="STATISTICS_MEAN">18.392028985507</MDI>
+      <MDI key="STATISTICS_STDDEV">10.760779753688</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="91">
+    <Description>90_2025-04-01</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_MAXIMUM">201</MDI>
+      <MDI key="STATISTICS_MEAN">56.543062200957</MDI>
+      <MDI key="STATISTICS_STDDEV">41.111230985109</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">90.87</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="92">
+    <Description>91_2025-04-02</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">84</MDI>
+      <MDI key="STATISTICS_MAXIMUM">349</MDI>
+      <MDI key="STATISTICS_MEAN">194.21148036254</MDI>
+      <MDI key="STATISTICS_STDDEV">48.039548044901</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">71.96</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="93">
+    <Description>92_2025-04-03</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">22</MDI>
+      <MDI key="STATISTICS_MAXIMUM">269</MDI>
+      <MDI key="STATISTICS_MEAN">138.00647668394</MDI>
+      <MDI key="STATISTICS_STDDEV">46.301088120706</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">83.91</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="94">
+    <Description>93_2025-04-04</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">136.66666666667</MDI>
+      <MDI key="STATISTICS_MAXIMUM">221.5</MDI>
+      <MDI key="STATISTICS_MEAN">168.11231884058</MDI>
+      <MDI key="STATISTICS_STDDEV">15.905641691493</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="95">
+    <Description>94_2025-04-05</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">139.5</MDI>
+      <MDI key="STATISTICS_MAXIMUM">255.33333333333</MDI>
+      <MDI key="STATISTICS_MEAN">214.98224637681</MDI>
+      <MDI key="STATISTICS_STDDEV">16.561038068621</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="96">
+    <Description>95_2025-04-06</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">59</MDI>
+      <MDI key="STATISTICS_MAXIMUM">299</MDI>
+      <MDI key="STATISTICS_MEAN">143.9185520362</MDI>
+      <MDI key="STATISTICS_STDDEV">42.572232146548</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">96.09</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="97">
+    <Description>96_2025-04-07</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">21</MDI>
+      <MDI key="STATISTICS_MAXIMUM">194.5</MDI>
+      <MDI key="STATISTICS_MEAN">65.490825688073</MDI>
+      <MDI key="STATISTICS_STDDEV">21.511729428104</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">94.78</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="98">
+    <Description>97_2025-04-08</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">33</MDI>
+      <MDI key="STATISTICS_MAXIMUM">420</MDI>
+      <MDI key="STATISTICS_MEAN">262.98765432099</MDI>
+      <MDI key="STATISTICS_STDDEV">77.063945522119</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">17.61</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="99">
+    <Description>98_2025-04-09</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">103</MDI>
+      <MDI key="STATISTICS_MAXIMUM">398</MDI>
+      <MDI key="STATISTICS_MEAN">302.12144420131</MDI>
+      <MDI key="STATISTICS_STDDEV">35.804296204521</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">99.35</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="100">
+    <Description>99_2025-04-10</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">111</MDI>
+      <MDI key="STATISTICS_MAXIMUM">252.66666666667</MDI>
+      <MDI key="STATISTICS_MEAN">171.27971014493</MDI>
+      <MDI key="STATISTICS_STDDEV">26.490366472701</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="101">
+    <Description>100_2025-04-11</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">1</MDI>
+      <MDI key="STATISTICS_MAXIMUM">208</MDI>
+      <MDI key="STATISTICS_MEAN">109.8125</MDI>
+      <MDI key="STATISTICS_STDDEV">34.844979966097</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">99.13</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="102">
+    <Description>101_2025-04-12</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">275</MDI>
+      <MDI key="STATISTICS_MAXIMUM">423</MDI>
+      <MDI key="STATISTICS_MEAN">327.81481481481</MDI>
+      <MDI key="STATISTICS_STDDEV">33.523250126439</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">46.96</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="103">
+    <Description>102_2025-04-13</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="104">
+    <Description>103_2025-04-14</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="105">
+    <Description>104_2025-04-15</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="106">
+    <Description>105_2025-04-16</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="107">
+    <Description>106_2025-04-17</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">208</MDI>
+      <MDI key="STATISTICS_MAXIMUM">253</MDI>
+      <MDI key="STATISTICS_MEAN">236.25</MDI>
+      <MDI key="STATISTICS_STDDEV">15.039531242695</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">5.217</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="108">
+    <Description>107_2025-04-18</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">20</MDI>
+      <MDI key="STATISTICS_MAXIMUM">581</MDI>
+      <MDI key="STATISTICS_MEAN">346.14754098361</MDI>
+      <MDI key="STATISTICS_STDDEV">138.26306431209</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">13.26</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="109">
+    <Description>108_2025-04-19</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="110">
+    <Description>109_2025-04-20</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="111">
+    <Description>110_2025-04-21</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">25</MDI>
+      <MDI key="STATISTICS_MAXIMUM">234</MDI>
+      <MDI key="STATISTICS_MEAN">136.26923076923</MDI>
+      <MDI key="STATISTICS_STDDEV">48.31909774717</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">22.61</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="112">
+    <Description>111_2025-04-22</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">74</MDI>
+      <MDI key="STATISTICS_MAXIMUM">167</MDI>
+      <MDI key="STATISTICS_MEAN">130.56392045455</MDI>
+      <MDI key="STATISTICS_STDDEV">19.312936652152</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">76.52</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="113">
+    <Description>112_2025-04-23</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">117</MDI>
+      <MDI key="STATISTICS_MAXIMUM">312</MDI>
+      <MDI key="STATISTICS_MEAN">225.91513761468</MDI>
+      <MDI key="STATISTICS_STDDEV">35.411647389702</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">94.78</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="114">
+    <Description>113_2025-04-24</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">21</MDI>
+      <MDI key="STATISTICS_MAXIMUM">308</MDI>
+      <MDI key="STATISTICS_MEAN">136.38888888889</MDI>
+      <MDI key="STATISTICS_STDDEV">49.00728358925</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">27.39</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="115">
+    <Description>114_2025-04-25</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">32</MDI>
+      <MDI key="STATISTICS_MAXIMUM">131.33333333333</MDI>
+      <MDI key="STATISTICS_MEAN">73.179710144928</MDI>
+      <MDI key="STATISTICS_STDDEV">18.083270190581</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="116">
+    <Description>115_2025-04-26</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">9</MDI>
+      <MDI key="STATISTICS_MAXIMUM">221</MDI>
+      <MDI key="STATISTICS_MEAN">84.883516483516</MDI>
+      <MDI key="STATISTICS_STDDEV">39.477280331345</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">98.91</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="117">
+    <Description>116_2025-04-27</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="118">
+    <Description>117_2025-04-28</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">109.5</MDI>
+      <MDI key="STATISTICS_MAXIMUM">349</MDI>
+      <MDI key="STATISTICS_MEAN">247.85010940919</MDI>
+      <MDI key="STATISTICS_STDDEV">37.335371162116</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">99.35</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="119">
+    <Description>118_2025-04-29</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">109.5</MDI>
+      <MDI key="STATISTICS_MAXIMUM">266.33333333333</MDI>
+      <MDI key="STATISTICS_MEAN">167.3902173913</MDI>
+      <MDI key="STATISTICS_STDDEV">23.543560479447</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="120">
+    <Description>119_2025-04-30</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">113</MDI>
+      <MDI key="STATISTICS_MAXIMUM">343</MDI>
+      <MDI key="STATISTICS_MEAN">223.86920289855</MDI>
+      <MDI key="STATISTICS_STDDEV">27.432239414018</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="121">
+    <Description>120_2025-05-01</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">44</MDI>
+      <MDI key="STATISTICS_MAXIMUM">298</MDI>
+      <MDI key="STATISTICS_MEAN">143.03930131004</MDI>
+      <MDI key="STATISTICS_STDDEV">33.127624476288</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">99.57</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="122">
+    <Description>121_2025-05-02</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">94</MDI>
+      <MDI key="STATISTICS_MAXIMUM">198.66666666667</MDI>
+      <MDI key="STATISTICS_MEAN">132.21141304348</MDI>
+      <MDI key="STATISTICS_STDDEV">12.887826833537</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="123">
+    <Description>122_2025-05-03</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="124">
+    <Description>123_2025-05-04</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="125">
+    <Description>124_2025-05-05</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="126">
+    <Description>125_2025-05-06</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="127">
+    <Description>126_2025-05-07</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="128">
+    <Description>127_2025-05-08</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_MAXIMUM">485</MDI>
+      <MDI key="STATISTICS_MEAN">289.125</MDI>
+      <MDI key="STATISTICS_STDDEV">82.619599756286</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">15.65</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="129">
+    <Description>128_2025-05-09</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">407</MDI>
+      <MDI key="STATISTICS_MAXIMUM">548</MDI>
+      <MDI key="STATISTICS_MEAN">462.53125</MDI>
+      <MDI key="STATISTICS_STDDEV">28.840601128227</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">13.91</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="130">
+    <Description>129_2025-05-10</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">91</MDI>
+      <MDI key="STATISTICS_MAXIMUM">559</MDI>
+      <MDI key="STATISTICS_MEAN">268.60852713178</MDI>
+      <MDI key="STATISTICS_STDDEV">95.540515802701</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">56.09</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="131">
+    <Description>130_2025-05-11</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">35</MDI>
+      <MDI key="STATISTICS_MAXIMUM">401</MDI>
+      <MDI key="STATISTICS_MEAN">199.24065934066</MDI>
+      <MDI key="STATISTICS_STDDEV">72.963281414216</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">98.91</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="132">
+    <Description>131_2025-05-12</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">133</MDI>
+      <MDI key="STATISTICS_MAXIMUM">344</MDI>
+      <MDI key="STATISTICS_MEAN">199.2914893617</MDI>
+      <MDI key="STATISTICS_STDDEV">47.833922930157</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">51.09</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="133">
+    <Description>132_2025-05-13</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">35</MDI>
+      <MDI key="STATISTICS_MAXIMUM">446</MDI>
+      <MDI key="STATISTICS_MEAN">272.08333333333</MDI>
+      <MDI key="STATISTICS_STDDEV">74.408547522744</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">23.48</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="134">
+    <Description>133_2025-05-14</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">143</MDI>
+      <MDI key="STATISTICS_MAXIMUM">580</MDI>
+      <MDI key="STATISTICS_MEAN">316.94402985075</MDI>
+      <MDI key="STATISTICS_STDDEV">102.70910887768</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">58.26</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="135">
+    <Description>134_2025-05-15</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">24</MDI>
+      <MDI key="STATISTICS_MAXIMUM">224.5</MDI>
+      <MDI key="STATISTICS_MEAN">129.94891304348</MDI>
+      <MDI key="STATISTICS_STDDEV">35.745676219422</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="136">
+    <Description>135_2025-05-16</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">3</MDI>
+      <MDI key="STATISTICS_MAXIMUM">258</MDI>
+      <MDI key="STATISTICS_MEAN">79.387133182844</MDI>
+      <MDI key="STATISTICS_STDDEV">52.044473442767</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">96.3</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="137">
+    <Description>136_2025-05-17</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">137</MDI>
+      <MDI key="STATISTICS_MAXIMUM">240.75</MDI>
+      <MDI key="STATISTICS_MEAN">179.6481884058</MDI>
+      <MDI key="STATISTICS_STDDEV">21.633078544161</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="138">
+    <Description>137_2025-05-18</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">30</MDI>
+      <MDI key="STATISTICS_MAXIMUM">342</MDI>
+      <MDI key="STATISTICS_MEAN">130.11258278146</MDI>
+      <MDI key="STATISTICS_STDDEV">46.504331927587</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">98.48</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="139">
+    <Description>138_2025-05-19</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">298</MDI>
+      <MDI key="STATISTICS_MAXIMUM">523</MDI>
+      <MDI key="STATISTICS_MEAN">386.13333333333</MDI>
+      <MDI key="STATISTICS_STDDEV">50.245220889376</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">6.522</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="140">
+    <Description>139_2025-05-20</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="141">
+    <Description>140_2025-05-21</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">457</MDI>
+      <MDI key="STATISTICS_MAXIMUM">532</MDI>
+      <MDI key="STATISTICS_MEAN">493.16666666667</MDI>
+      <MDI key="STATISTICS_STDDEV">26.47902734031</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">1.304</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="142">
+    <Description>141_2025-05-22</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="143">
+    <Description>142_2025-05-23</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_MAXIMUM">449</MDI>
+      <MDI key="STATISTICS_MEAN">194.80267062315</MDI>
+      <MDI key="STATISTICS_STDDEV">59.609215217631</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">73.26</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="144">
+    <Description>143_2025-05-24</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">125</MDI>
+      <MDI key="STATISTICS_MAXIMUM">462</MDI>
+      <MDI key="STATISTICS_MEAN">260.69847328244</MDI>
+      <MDI key="STATISTICS_STDDEV">65.53822028618</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">56.96</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="145">
+    <Description>144_2025-05-25</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">201</MDI>
+      <MDI key="STATISTICS_MAXIMUM">562</MDI>
+      <MDI key="STATISTICS_MEAN">368.29032258065</MDI>
+      <MDI key="STATISTICS_STDDEV">90.734678275902</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">67.39</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="146">
+    <Description>145_2025-05-26</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">22.5</MDI>
+      <MDI key="STATISTICS_MAXIMUM">257</MDI>
+      <MDI key="STATISTICS_MEAN">133.52173913043</MDI>
+      <MDI key="STATISTICS_STDDEV">33.138421238689</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="147">
+    <Description>146_2025-05-27</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">128</MDI>
+      <MDI key="STATISTICS_MAXIMUM">536</MDI>
+      <MDI key="STATISTICS_MEAN">254.92976588629</MDI>
+      <MDI key="STATISTICS_STDDEV">68.844719489714</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">65</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="148">
+    <Description>147_2025-05-28</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="149">
+    <Description>148_2025-05-29</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_MAXIMUM">102</MDI>
+      <MDI key="STATISTICS_MEAN">22.95652173913</MDI>
+      <MDI key="STATISTICS_STDDEV">20.203805627028</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="150">
+    <Description>149_2025-05-30</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">61</MDI>
+      <MDI key="STATISTICS_MAXIMUM">281.5</MDI>
+      <MDI key="STATISTICS_MEAN">130.69456521739</MDI>
+      <MDI key="STATISTICS_STDDEV">40.604865215375</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="151">
+    <Description>150_2025-05-31</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">339</MDI>
+      <MDI key="STATISTICS_MAXIMUM">575</MDI>
+      <MDI key="STATISTICS_MEAN">442.3982300885</MDI>
+      <MDI key="STATISTICS_STDDEV">52.414538924546</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">24.57</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="152">
+    <Description>151_2025-06-01</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">483</MDI>
+      <MDI key="STATISTICS_MAXIMUM">695</MDI>
+      <MDI key="STATISTICS_MEAN">618</MDI>
+      <MDI key="STATISTICS_STDDEV">52.900729479726</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">33.91</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="153">
+    <Description>152_2025-06-02</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">557</MDI>
+      <MDI key="STATISTICS_MAXIMUM">557</MDI>
+      <MDI key="STATISTICS_MEAN">557</MDI>
+      <MDI key="STATISTICS_STDDEV">0</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">0.2174</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="154">
+    <Description>153_2025-06-03</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">224</MDI>
+      <MDI key="STATISTICS_MAXIMUM">597</MDI>
+      <MDI key="STATISTICS_MEAN">330.77777777778</MDI>
+      <MDI key="STATISTICS_STDDEV">67.729183399408</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">31.3</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="155">
+    <Description>154_2025-06-04</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="156">
+    <Description>155_2025-06-05</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="157">
+    <Description>156_2025-06-06</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="158">
+    <Description>157_2025-06-07</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">403</MDI>
+      <MDI key="STATISTICS_MAXIMUM">561</MDI>
+      <MDI key="STATISTICS_MEAN">491.09523809524</MDI>
+      <MDI key="STATISTICS_STDDEV">45.470979506981</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">4.565</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="159">
+    <Description>158_2025-06-08</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">190</MDI>
+      <MDI key="STATISTICS_MAXIMUM">790</MDI>
+      <MDI key="STATISTICS_MEAN">404.30681818182</MDI>
+      <MDI key="STATISTICS_STDDEV">135.14550306602</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">95.65</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="160">
+    <Description>159_2025-06-09</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">550</MDI>
+      <MDI key="STATISTICS_MAXIMUM">764</MDI>
+      <MDI key="STATISTICS_MEAN">666.06630434783</MDI>
+      <MDI key="STATISTICS_STDDEV">47.75704427251</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="161">
+    <Description>160_2025-06-10</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">265</MDI>
+      <MDI key="STATISTICS_MAXIMUM">516</MDI>
+      <MDI key="STATISTICS_MEAN">388.12418300654</MDI>
+      <MDI key="STATISTICS_STDDEV">40.354378498299</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">99.78</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="162">
+    <Description>161_2025-06-11</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">341.25</MDI>
+      <MDI key="STATISTICS_MAXIMUM">462.75</MDI>
+      <MDI key="STATISTICS_MEAN">396.94474637681</MDI>
+      <MDI key="STATISTICS_STDDEV">23.090987446711</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="163">
+    <Description>162_2025-06-12</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">432</MDI>
+      <MDI key="STATISTICS_MAXIMUM">889</MDI>
+      <MDI key="STATISTICS_MEAN">699.35885167464</MDI>
+      <MDI key="STATISTICS_STDDEV">87.43591873917</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">90.87</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="164">
+    <Description>163_2025-06-13</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">404.5</MDI>
+      <MDI key="STATISTICS_MAXIMUM">605</MDI>
+      <MDI key="STATISTICS_MEAN">480.02934782609</MDI>
+      <MDI key="STATISTICS_STDDEV">35.18572937639</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="165">
+    <Description>164_2025-06-14</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">544</MDI>
+      <MDI key="STATISTICS_MAXIMUM">813</MDI>
+      <MDI key="STATISTICS_MEAN">649.60337078652</MDI>
+      <MDI key="STATISTICS_STDDEV">65.007834358357</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">96.74</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="166">
+    <Description>165_2025-06-15</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">162</MDI>
+      <MDI key="STATISTICS_MAXIMUM">394</MDI>
+      <MDI key="STATISTICS_MEAN">281.27507163324</MDI>
+      <MDI key="STATISTICS_STDDEV">50.913125995502</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">75.87</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="167">
+    <Description>166_2025-06-16</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">15</MDI>
+      <MDI key="STATISTICS_MAXIMUM">545</MDI>
+      <MDI key="STATISTICS_MEAN">229.28143274854</MDI>
+      <MDI key="STATISTICS_STDDEV">86.925437376262</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">99.13</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="168">
+    <Description>167_2025-06-17</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="169">
+    <Description>168_2025-06-18</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">135</MDI>
+      <MDI key="STATISTICS_MAXIMUM">258</MDI>
+      <MDI key="STATISTICS_MEAN">192.87608695652</MDI>
+      <MDI key="STATISTICS_STDDEV">27.521293612027</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="170">
+    <Description>169_2025-06-19</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">167</MDI>
+      <MDI key="STATISTICS_MAXIMUM">311</MDI>
+      <MDI key="STATISTICS_MEAN">228.62572463768</MDI>
+      <MDI key="STATISTICS_STDDEV">28.259132636609</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="171">
+    <Description>170_2025-06-20</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">152</MDI>
+      <MDI key="STATISTICS_MAXIMUM">531</MDI>
+      <MDI key="STATISTICS_MEAN">353.6524122807</MDI>
+      <MDI key="STATISTICS_STDDEV">59.003942727065</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">99.13</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="172">
+    <Description>171_2025-06-21</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">458</MDI>
+      <MDI key="STATISTICS_MAXIMUM">682</MDI>
+      <MDI key="STATISTICS_MEAN">565.4546460177</MDI>
+      <MDI key="STATISTICS_STDDEV">29.159046127058</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">98.26</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="173">
+    <Description>172_2025-06-22</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">58</MDI>
+      <MDI key="STATISTICS_MAXIMUM">318.5</MDI>
+      <MDI key="STATISTICS_MEAN">164.90631808279</MDI>
+      <MDI key="STATISTICS_STDDEV">54.130419680707</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">99.78</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="174">
+    <Description>173_2025-06-23</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">96.5</MDI>
+      <MDI key="STATISTICS_MAXIMUM">370.5</MDI>
+      <MDI key="STATISTICS_MEAN">184.18043478261</MDI>
+      <MDI key="STATISTICS_STDDEV">50.026482636983</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="175">
+    <Description>174_2025-06-24</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">116.5</MDI>
+      <MDI key="STATISTICS_MAXIMUM">255</MDI>
+      <MDI key="STATISTICS_MEAN">166.81847826087</MDI>
+      <MDI key="STATISTICS_STDDEV">25.534613887427</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="176">
+    <Description>175_2025-06-25</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">28</MDI>
+      <MDI key="STATISTICS_MAXIMUM">380</MDI>
+      <MDI key="STATISTICS_MEAN">187.18043478261</MDI>
+      <MDI key="STATISTICS_STDDEV">48.256088237495</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="177">
+    <Description>176_2025-06-26</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">339</MDI>
+      <MDI key="STATISTICS_MAXIMUM">478</MDI>
+      <MDI key="STATISTICS_MEAN">396.80458515284</MDI>
+      <MDI key="STATISTICS_STDDEV">22.546035407602</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">99.57</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="178">
+    <Description>177_2025-06-27</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">18</MDI>
+      <MDI key="STATISTICS_MAXIMUM">415</MDI>
+      <MDI key="STATISTICS_MEAN">137.59492273731</MDI>
+      <MDI key="STATISTICS_STDDEV">67.864646134581</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">98.48</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="179">
+    <Description>178_2025-06-28</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">6.5</MDI>
+      <MDI key="STATISTICS_MAXIMUM">150.5</MDI>
+      <MDI key="STATISTICS_MEAN">54.042391304348</MDI>
+      <MDI key="STATISTICS_STDDEV">29.263808460042</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="180">
+    <Description>179_2025-06-29</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">85.333333333333</MDI>
+      <MDI key="STATISTICS_MAXIMUM">251</MDI>
+      <MDI key="STATISTICS_MEAN">139.88297101449</MDI>
+      <MDI key="STATISTICS_STDDEV">23.936386857894</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="181">
+    <Description>180_2025-06-30</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">25</MDI>
+      <MDI key="STATISTICS_MAXIMUM">258.5</MDI>
+      <MDI key="STATISTICS_MEAN">116.89427312775</MDI>
+      <MDI key="STATISTICS_STDDEV">53.678546915141</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">98.7</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="182">
+    <Description>181_2025-07-01</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">110.5</MDI>
+      <MDI key="STATISTICS_MAXIMUM">272</MDI>
+      <MDI key="STATISTICS_MEAN">174.07717391304</MDI>
+      <MDI key="STATISTICS_STDDEV">21.552032829095</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="183">
+    <Description>182_2025-07-02</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">226</MDI>
+      <MDI key="STATISTICS_MAXIMUM">511</MDI>
+      <MDI key="STATISTICS_MEAN">283.56752873563</MDI>
+      <MDI key="STATISTICS_STDDEV">37.251790170465</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">75.65</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="184">
+    <Description>183_2025-07-03</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">148</MDI>
+      <MDI key="STATISTICS_MAXIMUM">265</MDI>
+      <MDI key="STATISTICS_MEAN">205.87934782609</MDI>
+      <MDI key="STATISTICS_STDDEV">21.36067362785</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="185">
+    <Description>184_2025-07-04</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">231</MDI>
+      <MDI key="STATISTICS_MAXIMUM">396.5</MDI>
+      <MDI key="STATISTICS_MEAN">291.22463768116</MDI>
+      <MDI key="STATISTICS_STDDEV">31.505977068682</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="186">
+    <Description>185_2025-07-05</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">194</MDI>
+      <MDI key="STATISTICS_MAXIMUM">679</MDI>
+      <MDI key="STATISTICS_MEAN">458.1164874552</MDI>
+      <MDI key="STATISTICS_STDDEV">85.760804812818</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">60.65</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="187">
+    <Description>186_2025-07-06</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">502</MDI>
+      <MDI key="STATISTICS_MAXIMUM">757</MDI>
+      <MDI key="STATISTICS_MEAN">615.38940092166</MDI>
+      <MDI key="STATISTICS_STDDEV">47.755200726364</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">47.17</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="188">
+    <Description>187_2025-07-07</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">36</MDI>
+      <MDI key="STATISTICS_MAXIMUM">244</MDI>
+      <MDI key="STATISTICS_MEAN">112.95108695652</MDI>
+      <MDI key="STATISTICS_STDDEV">38.822691970831</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="189">
+    <Description>188_2025-07-08</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">27</MDI>
+      <MDI key="STATISTICS_MAXIMUM">98.5</MDI>
+      <MDI key="STATISTICS_MEAN">57.23152173913</MDI>
+      <MDI key="STATISTICS_STDDEV">13.968644462477</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="190">
+    <Description>189_2025-07-09</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">44.666666666667</MDI>
+      <MDI key="STATISTICS_MAXIMUM">183.33333333333</MDI>
+      <MDI key="STATISTICS_MEAN">77.782608695652</MDI>
+      <MDI key="STATISTICS_STDDEV">19.317971457015</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="191">
+    <Description>190_2025-07-10</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">17.5</MDI>
+      <MDI key="STATISTICS_MAXIMUM">164</MDI>
+      <MDI key="STATISTICS_MEAN">66.680434782609</MDI>
+      <MDI key="STATISTICS_STDDEV">24.229384958416</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="192">
+    <Description>191_2025-07-11</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">166.33333333333</MDI>
+      <MDI key="STATISTICS_MAXIMUM">294</MDI>
+      <MDI key="STATISTICS_MEAN">205.76847826087</MDI>
+      <MDI key="STATISTICS_STDDEV">18.810733114183</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="193">
+    <Description>192_2025-07-12</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">229</MDI>
+      <MDI key="STATISTICS_MAXIMUM">456</MDI>
+      <MDI key="STATISTICS_MEAN">305.29375453885</MDI>
+      <MDI key="STATISTICS_STDDEV">33.221024595208</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">99.78</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="194">
+    <Description>193_2025-07-13</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">149</MDI>
+      <MDI key="STATISTICS_MAXIMUM">559</MDI>
+      <MDI key="STATISTICS_MEAN">324.41384615385</MDI>
+      <MDI key="STATISTICS_STDDEV">80.05323397479</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">70.65</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="195">
+    <Description>194_2025-07-14</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">61</MDI>
+      <MDI key="STATISTICS_MAXIMUM">372</MDI>
+      <MDI key="STATISTICS_MEAN">205.03413217139</MDI>
+      <MDI key="STATISTICS_STDDEV">87.708631775671</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">99.78</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="196">
+    <Description>195_2025-07-15</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">131</MDI>
+      <MDI key="STATISTICS_MAXIMUM">364</MDI>
+      <MDI key="STATISTICS_MEAN">239.33924611973</MDI>
+      <MDI key="STATISTICS_STDDEV">48.943960790679</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">98.04</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="197">
+    <Description>196_2025-07-16</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">100</MDI>
+      <MDI key="STATISTICS_MAXIMUM">422</MDI>
+      <MDI key="STATISTICS_MEAN">307.53892944039</MDI>
+      <MDI key="STATISTICS_STDDEV">63.266177299524</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">89.35</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="198">
+    <Description>197_2025-07-17</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">66</MDI>
+      <MDI key="STATISTICS_MAXIMUM">145.66666666667</MDI>
+      <MDI key="STATISTICS_MEAN">93.957246376812</MDI>
+      <MDI key="STATISTICS_STDDEV">14.740451200567</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="199">
+    <Description>198_2025-07-18</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">42</MDI>
+      <MDI key="STATISTICS_MAXIMUM">279.33333333333</MDI>
+      <MDI key="STATISTICS_MEAN">165.55362318841</MDI>
+      <MDI key="STATISTICS_STDDEV">29.729999145499</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="200">
+    <Description>199_2025-07-19</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">483</MDI>
+      <MDI key="STATISTICS_MAXIMUM">599</MDI>
+      <MDI key="STATISTICS_MEAN">526.36363636364</MDI>
+      <MDI key="STATISTICS_STDDEV">40.950685924487</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">2.391</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="201">
+    <Description>200_2025-07-20</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">604</MDI>
+      <MDI key="STATISTICS_MAXIMUM">670</MDI>
+      <MDI key="STATISTICS_MEAN">637</MDI>
+      <MDI key="STATISTICS_STDDEV">25.266578715766</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">3.261</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="202">
+    <Description>201_2025-07-21</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_MAXIMUM">318</MDI>
+      <MDI key="STATISTICS_MEAN">95.314516129032</MDI>
+      <MDI key="STATISTICS_STDDEV">48.635617165036</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">53.91</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="203">
+    <Description>202_2025-07-22</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">28.666666666667</MDI>
+      <MDI key="STATISTICS_MAXIMUM">275.5</MDI>
+      <MDI key="STATISTICS_MEAN">86.438043478261</MDI>
+      <MDI key="STATISTICS_STDDEV">31.383939468437</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="204">
+    <Description>203_2025-07-23</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">50</MDI>
+      <MDI key="STATISTICS_MAXIMUM">540</MDI>
+      <MDI key="STATISTICS_MEAN">380.01209677419</MDI>
+      <MDI key="STATISTICS_STDDEV">86.878633915868</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">26.96</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="205">
+    <Description>204_2025-07-24</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">179</MDI>
+      <MDI key="STATISTICS_MAXIMUM">432</MDI>
+      <MDI key="STATISTICS_MEAN">247.11285266458</MDI>
+      <MDI key="STATISTICS_STDDEV">33.915621709436</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">69.35</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="206">
+    <Description>205_2025-07-25</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="207">
+    <Description>206_2025-07-26</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="208">
+    <Description>207_2025-07-27</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">2</MDI>
+      <MDI key="STATISTICS_MAXIMUM">228</MDI>
+      <MDI key="STATISTICS_MEAN">64.157894736842</MDI>
+      <MDI key="STATISTICS_STDDEV">31.532308395689</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">99.13</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="209">
+    <Description>208_2025-07-28</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">53</MDI>
+      <MDI key="STATISTICS_MAXIMUM">425</MDI>
+      <MDI key="STATISTICS_MEAN">201.26666666667</MDI>
+      <MDI key="STATISTICS_STDDEV">87.249730976981</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">32.61</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="210">
+    <Description>209_2025-07-29</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">36</MDI>
+      <MDI key="STATISTICS_MAXIMUM">199.5</MDI>
+      <MDI key="STATISTICS_MEAN">102.00760869565</MDI>
+      <MDI key="STATISTICS_STDDEV">35.606277639275</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="211">
+    <Description>210_2025-07-30</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">95</MDI>
+      <MDI key="STATISTICS_MAXIMUM">251</MDI>
+      <MDI key="STATISTICS_MEAN">148.85434782609</MDI>
+      <MDI key="STATISTICS_STDDEV">24.813620089902</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="212">
+    <Description>211_2025-07-31</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">48</MDI>
+      <MDI key="STATISTICS_MAXIMUM">267</MDI>
+      <MDI key="STATISTICS_MEAN">180.30543478261</MDI>
+      <MDI key="STATISTICS_STDDEV">35.790994629237</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="213">
+    <Description>212_2025-08-01</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">348</MDI>
+      <MDI key="STATISTICS_MAXIMUM">552</MDI>
+      <MDI key="STATISTICS_MEAN">422.78360215054</MDI>
+      <MDI key="STATISTICS_STDDEV">45.620168914151</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">80.87</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="214">
+    <Description>213_2025-08-02</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">58</MDI>
+      <MDI key="STATISTICS_MAXIMUM">292.5</MDI>
+      <MDI key="STATISTICS_MEAN">166.12563451777</MDI>
+      <MDI key="STATISTICS_STDDEV">33.089289719493</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">85.65</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="215">
+    <Description>214_2025-08-03</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">48</MDI>
+      <MDI key="STATISTICS_MAXIMUM">273.5</MDI>
+      <MDI key="STATISTICS_MEAN">138.35543478261</MDI>
+      <MDI key="STATISTICS_STDDEV">38.739322130863</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="216">
+    <Description>215_2025-08-04</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">194</MDI>
+      <MDI key="STATISTICS_MAXIMUM">262</MDI>
+      <MDI key="STATISTICS_MEAN">226.66666666667</MDI>
+      <MDI key="STATISTICS_STDDEV">18.26046123307</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">3.913</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="217">
+    <Description>216_2025-08-05</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">128</MDI>
+      <MDI key="STATISTICS_MAXIMUM">448</MDI>
+      <MDI key="STATISTICS_MEAN">230.25382653061</MDI>
+      <MDI key="STATISTICS_STDDEV">65.043980298816</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">85.22</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="218">
+    <Description>217_2025-08-06</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="219">
+    <Description>218_2025-08-07</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">159</MDI>
+      <MDI key="STATISTICS_MAXIMUM">473.5</MDI>
+      <MDI key="STATISTICS_MEAN">329.85760869565</MDI>
+      <MDI key="STATISTICS_STDDEV">79.828314886177</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="220">
+    <Description>219_2025-08-08</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">166.5</MDI>
+      <MDI key="STATISTICS_MAXIMUM">329.5</MDI>
+      <MDI key="STATISTICS_MEAN">245.02826086957</MDI>
+      <MDI key="STATISTICS_STDDEV">31.557801784934</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="221">
+    <Description>220_2025-08-09</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">197</MDI>
+      <MDI key="STATISTICS_MAXIMUM">353</MDI>
+      <MDI key="STATISTICS_MEAN">254.9</MDI>
+      <MDI key="STATISTICS_STDDEV">27.895082939004</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="222">
+    <Description>221_2025-08-10</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">247</MDI>
+      <MDI key="STATISTICS_MAXIMUM">365</MDI>
+      <MDI key="STATISTICS_MEAN">303.04891304348</MDI>
+      <MDI key="STATISTICS_STDDEV">22.832002209738</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="223">
+    <Description>222_2025-08-11</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">151.5</MDI>
+      <MDI key="STATISTICS_MAXIMUM">263.66666666667</MDI>
+      <MDI key="STATISTICS_MEAN">218.53804347826</MDI>
+      <MDI key="STATISTICS_STDDEV">16.953023743463</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="224">
+    <Description>223_2025-08-12</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">312.33333333333</MDI>
+      <MDI key="STATISTICS_MAXIMUM">423.33333333333</MDI>
+      <MDI key="STATISTICS_MEAN">353.875</MDI>
+      <MDI key="STATISTICS_STDDEV">17.825645522253</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="225">
+    <Description>224_2025-08-13</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">255</MDI>
+      <MDI key="STATISTICS_MAXIMUM">533</MDI>
+      <MDI key="STATISTICS_MEAN">357.34934497817</MDI>
+      <MDI key="STATISTICS_STDDEV">28.137765605725</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">99.57</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="226">
+    <Description>225_2025-08-14</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">170</MDI>
+      <MDI key="STATISTICS_MAXIMUM">391</MDI>
+      <MDI key="STATISTICS_MEAN">244.40740740741</MDI>
+      <MDI key="STATISTICS_STDDEV">47.656830836484</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">35.22</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="227">
+    <Description>226_2025-08-15</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">159.5</MDI>
+      <MDI key="STATISTICS_MAXIMUM">338.5</MDI>
+      <MDI key="STATISTICS_MEAN">255.52826086957</MDI>
+      <MDI key="STATISTICS_STDDEV">31.04301477854</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="228">
+    <Description>227_2025-08-16</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">111</MDI>
+      <MDI key="STATISTICS_MAXIMUM">311</MDI>
+      <MDI key="STATISTICS_MEAN">188.54347826087</MDI>
+      <MDI key="STATISTICS_STDDEV">27.365863789495</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="229">
+    <Description>228_2025-08-17</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">166.5</MDI>
+      <MDI key="STATISTICS_MAXIMUM">249</MDI>
+      <MDI key="STATISTICS_MEAN">200.28224637681</MDI>
+      <MDI key="STATISTICS_STDDEV">15.041877493474</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="230">
+    <Description>229_2025-08-18</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">261</MDI>
+      <MDI key="STATISTICS_MAXIMUM">483</MDI>
+      <MDI key="STATISTICS_MEAN">357.79130434783</MDI>
+      <MDI key="STATISTICS_STDDEV">37.370761798887</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="231">
+    <Description>230_2025-08-19</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">556</MDI>
+      <MDI key="STATISTICS_MAXIMUM">764</MDI>
+      <MDI key="STATISTICS_MEAN">631.19333333333</MDI>
+      <MDI key="STATISTICS_STDDEV">41.506055247665</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">97.83</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="232">
+    <Description>231_2025-08-20</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">570</MDI>
+      <MDI key="STATISTICS_MAXIMUM">694</MDI>
+      <MDI key="STATISTICS_MEAN">618.56666666667</MDI>
+      <MDI key="STATISTICS_STDDEV">40.730564554016</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">6.522</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="233">
+    <Description>232_2025-08-21</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="234">
+    <Description>233_2025-08-22</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">36</MDI>
+      <MDI key="STATISTICS_MAXIMUM">116</MDI>
+      <MDI key="STATISTICS_MEAN">70.41268115942</MDI>
+      <MDI key="STATISTICS_STDDEV">14.062607459507</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="235">
+    <Description>234_2025-08-23</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">195</MDI>
+      <MDI key="STATISTICS_MAXIMUM">358</MDI>
+      <MDI key="STATISTICS_MEAN">270.22058823529</MDI>
+      <MDI key="STATISTICS_STDDEV">36.083174174087</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">14.78</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="236">
+    <Description>235_2025-08-24</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">428</MDI>
+      <MDI key="STATISTICS_MAXIMUM">428</MDI>
+      <MDI key="STATISTICS_MEAN">428</MDI>
+      <MDI key="STATISTICS_STDDEV">0</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">0.2174</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="237">
+    <Description>236_2025-08-25</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">25</MDI>
+      <MDI key="STATISTICS_MAXIMUM">544</MDI>
+      <MDI key="STATISTICS_MEAN">327.85828877005</MDI>
+      <MDI key="STATISTICS_STDDEV">99.46003939595</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">40.65</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="238">
+    <Description>237_2025-08-26</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">141</MDI>
+      <MDI key="STATISTICS_MAXIMUM">387</MDI>
+      <MDI key="STATISTICS_MEAN">277.23304157549</MDI>
+      <MDI key="STATISTICS_STDDEV">41.828160791134</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">99.35</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="239">
+    <Description>238_2025-08-27</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="240">
+    <Description>239_2025-08-28</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="241">
+    <Description>240_2025-08-29</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">162</MDI>
+      <MDI key="STATISTICS_MAXIMUM">533</MDI>
+      <MDI key="STATISTICS_MEAN">316.6268115942</MDI>
+      <MDI key="STATISTICS_STDDEV">92.176128303181</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">30</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="242">
+    <Description>241_2025-08-30</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">1</MDI>
+      <MDI key="STATISTICS_MAXIMUM">146</MDI>
+      <MDI key="STATISTICS_MEAN">41.257777777778</MDI>
+      <MDI key="STATISTICS_STDDEV">24.246424605967</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">97.83</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="243">
+    <Description>242_2025-08-31</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">17</MDI>
+      <MDI key="STATISTICS_MAXIMUM">125.5</MDI>
+      <MDI key="STATISTICS_MEAN">62.655434782609</MDI>
+      <MDI key="STATISTICS_STDDEV">21.857897608289</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="244">
+    <Description>243_2025-09-01</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="245">
+    <Description>244_2025-09-02</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">141</MDI>
+      <MDI key="STATISTICS_MAXIMUM">365</MDI>
+      <MDI key="STATISTICS_MEAN">248.0303030303</MDI>
+      <MDI key="STATISTICS_STDDEV">39.354245736438</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">43.04</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="246">
+    <Description>245_2025-09-03</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">73</MDI>
+      <MDI key="STATISTICS_MAXIMUM">236</MDI>
+      <MDI key="STATISTICS_MEAN">135.43223443223</MDI>
+      <MDI key="STATISTICS_STDDEV">24.45290230273</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">98.91</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="247">
+    <Description>246_2025-09-04</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">80</MDI>
+      <MDI key="STATISTICS_MAXIMUM">280</MDI>
+      <MDI key="STATISTICS_MEAN">200.52620087336</MDI>
+      <MDI key="STATISTICS_STDDEV">30.723594676504</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">99.57</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="248">
+    <Description>247_2025-09-05</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">28</MDI>
+      <MDI key="STATISTICS_MAXIMUM">470</MDI>
+      <MDI key="STATISTICS_MEAN">238.18393782383</MDI>
+      <MDI key="STATISTICS_STDDEV">58.775279875045</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">83.91</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="249">
+    <Description>248_2025-09-06</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">73</MDI>
+      <MDI key="STATISTICS_MAXIMUM">225</MDI>
+      <MDI key="STATISTICS_MEAN">118.57357357357</MDI>
+      <MDI key="STATISTICS_STDDEV">19.632142352675</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">96.52</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="250">
+    <Description>249_2025-09-07</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">161</MDI>
+      <MDI key="STATISTICS_MAXIMUM">438</MDI>
+      <MDI key="STATISTICS_MEAN">271.99557522124</MDI>
+      <MDI key="STATISTICS_STDDEV">46.945293692663</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">24.57</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="251">
+    <Description>250_2025-09-08</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="252">
+    <Description>251_2025-09-09</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">472</MDI>
+      <MDI key="STATISTICS_MAXIMUM">591</MDI>
+      <MDI key="STATISTICS_MEAN">551.90476190476</MDI>
+      <MDI key="STATISTICS_STDDEV">28.749997535246</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">4.565</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="253">
+    <Description>252_2025-09-10</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">118</MDI>
+      <MDI key="STATISTICS_MAXIMUM">415</MDI>
+      <MDI key="STATISTICS_MEAN">252.20143884892</MDI>
+      <MDI key="STATISTICS_STDDEV">48.97175516239</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">30.22</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="254">
+    <Description>253_2025-09-11</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">65</MDI>
+      <MDI key="STATISTICS_MAXIMUM">398</MDI>
+      <MDI key="STATISTICS_MEAN">267.55786163522</MDI>
+      <MDI key="STATISTICS_STDDEV">62.403013268824</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">57.61</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="255">
+    <Description>254_2025-09-12</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">307</MDI>
+      <MDI key="STATISTICS_MAXIMUM">580</MDI>
+      <MDI key="STATISTICS_MEAN">411.34731934732</MDI>
+      <MDI key="STATISTICS_STDDEV">39.000231587898</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">93.26</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="256">
+    <Description>255_2025-09-13</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="257">
+    <Description>256_2025-09-14</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">54</MDI>
+      <MDI key="STATISTICS_MAXIMUM">363</MDI>
+      <MDI key="STATISTICS_MEAN">176.3171641791</MDI>
+      <MDI key="STATISTICS_STDDEV">43.761482119911</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">58.26</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="258">
+    <Description>257_2025-09-15</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">130</MDI>
+      <MDI key="STATISTICS_MAXIMUM">316</MDI>
+      <MDI key="STATISTICS_MEAN">202.52466367713</MDI>
+      <MDI key="STATISTICS_STDDEV">39.297965713149</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">48.48</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="259">
+    <Description>258_2025-09-16</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">18</MDI>
+      <MDI key="STATISTICS_MAXIMUM">178</MDI>
+      <MDI key="STATISTICS_MEAN">114.58333333333</MDI>
+      <MDI key="STATISTICS_STDDEV">24.746281987851</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">83.48</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="260">
+    <Description>259_2025-09-17</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">149</MDI>
+      <MDI key="STATISTICS_MAXIMUM">502</MDI>
+      <MDI key="STATISTICS_MEAN">368.65155807365</MDI>
+      <MDI key="STATISTICS_STDDEV">55.639525296257</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">76.74</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="261">
+    <Description>260_2025-09-18</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">114</MDI>
+      <MDI key="STATISTICS_MAXIMUM">232</MDI>
+      <MDI key="STATISTICS_MEAN">167.06413043478</MDI>
+      <MDI key="STATISTICS_STDDEV">24.521922674113</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="262">
+    <Description>261_2025-09-19</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">229</MDI>
+      <MDI key="STATISTICS_MAXIMUM">434</MDI>
+      <MDI key="STATISTICS_MEAN">323.02608695652</MDI>
+      <MDI key="STATISTICS_STDDEV">29.751934060499</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="263">
+    <Description>262_2025-09-20</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">220.5</MDI>
+      <MDI key="STATISTICS_MAXIMUM">393</MDI>
+      <MDI key="STATISTICS_MEAN">288.7847826087</MDI>
+      <MDI key="STATISTICS_STDDEV">30.553203542213</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="264">
+    <Description>263_2025-09-21</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">131</MDI>
+      <MDI key="STATISTICS_MAXIMUM">301</MDI>
+      <MDI key="STATISTICS_MEAN">200.01231884058</MDI>
+      <MDI key="STATISTICS_STDDEV">33.715486456377</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="265">
+    <Description>264_2025-09-22</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">528</MDI>
+      <MDI key="STATISTICS_MAXIMUM">549</MDI>
+      <MDI key="STATISTICS_MEAN">535</MDI>
+      <MDI key="STATISTICS_STDDEV">9.8994949366117</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">0.6522</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="266">
+    <Description>265_2025-09-23</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="267">
+    <Description>266_2025-09-24</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">353</MDI>
+      <MDI key="STATISTICS_MAXIMUM">446</MDI>
+      <MDI key="STATISTICS_MEAN">395.33333333333</MDI>
+      <MDI key="STATISTICS_STDDEV">25.755258362776</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">1.957</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="268">
+    <Description>267_2025-09-25</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">162</MDI>
+      <MDI key="STATISTICS_MAXIMUM">421</MDI>
+      <MDI key="STATISTICS_MEAN">220.82113821138</MDI>
+      <MDI key="STATISTICS_STDDEV">40.005697260998</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">53.48</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="269">
+    <Description>268_2025-09-26</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="270">
+    <Description>269_2025-09-27</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="271">
+    <Description>270_2025-09-28</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">3.5</MDI>
+      <MDI key="STATISTICS_MAXIMUM">79.5</MDI>
+      <MDI key="STATISTICS_MEAN">36.747826086957</MDI>
+      <MDI key="STATISTICS_STDDEV">12.40373785056</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="272">
+    <Description>271_2025-09-29</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">75</MDI>
+      <MDI key="STATISTICS_MAXIMUM">199.5</MDI>
+      <MDI key="STATISTICS_MEAN">122.81195652174</MDI>
+      <MDI key="STATISTICS_STDDEV">18.40070203287</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="273">
+    <Description>272_2025-09-30</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">235</MDI>
+      <MDI key="STATISTICS_MAXIMUM">407</MDI>
+      <MDI key="STATISTICS_MEAN">318.7345971564</MDI>
+      <MDI key="STATISTICS_STDDEV">35.029989686615</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">91.74</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="274">
+    <Description>273_2025-10-01</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">105</MDI>
+      <MDI key="STATISTICS_MAXIMUM">197.5</MDI>
+      <MDI key="STATISTICS_MEAN">131.89855072464</MDI>
+      <MDI key="STATISTICS_STDDEV">14.884611669985</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="275">
+    <Description>274_2025-10-02</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">101.5</MDI>
+      <MDI key="STATISTICS_MAXIMUM">346</MDI>
+      <MDI key="STATISTICS_MEAN">190.16339869281</MDI>
+      <MDI key="STATISTICS_STDDEV">34.052799100445</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">99.78</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="276">
+    <Description>275_2025-10-03</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="277">
+    <Description>276_2025-10-04</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="278">
+    <Description>277_2025-10-05</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">6</MDI>
+      <MDI key="STATISTICS_MAXIMUM">265</MDI>
+      <MDI key="STATISTICS_MEAN">86.845652173913</MDI>
+      <MDI key="STATISTICS_STDDEV">38.411630408792</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="279">
+    <Description>278_2025-10-06</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">10.666666666667</MDI>
+      <MDI key="STATISTICS_MAXIMUM">77</MDI>
+      <MDI key="STATISTICS_MEAN">32.303079710145</MDI>
+      <MDI key="STATISTICS_STDDEV">7.6027486485461</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="280">
+    <Description>279_2025-10-07</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">52.5</MDI>
+      <MDI key="STATISTICS_MAXIMUM">155</MDI>
+      <MDI key="STATISTICS_MEAN">95.683695652174</MDI>
+      <MDI key="STATISTICS_STDDEV">19.446008180813</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="281">
+    <Description>280_2025-10-08</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">163</MDI>
+      <MDI key="STATISTICS_MAXIMUM">340</MDI>
+      <MDI key="STATISTICS_MEAN">239.46847826087</MDI>
+      <MDI key="STATISTICS_STDDEV">32.917577996605</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="282">
+    <Description>281_2025-10-09</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">388.5</MDI>
+      <MDI key="STATISTICS_MAXIMUM">558.66666666667</MDI>
+      <MDI key="STATISTICS_MEAN">494.97101449275</MDI>
+      <MDI key="STATISTICS_STDDEV">39.197624280208</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="283">
+    <Description>282_2025-10-10</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">413</MDI>
+      <MDI key="STATISTICS_MAXIMUM">613</MDI>
+      <MDI key="STATISTICS_MEAN">506.44456521739</MDI>
+      <MDI key="STATISTICS_STDDEV">35.445252837637</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="284">
+    <Description>283_2025-10-11</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">488.5</MDI>
+      <MDI key="STATISTICS_MAXIMUM">805.5</MDI>
+      <MDI key="STATISTICS_MEAN">624.32427536232</MDI>
+      <MDI key="STATISTICS_STDDEV">61.494115543323</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="285">
+    <Description>284_2025-10-12</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">522</MDI>
+      <MDI key="STATISTICS_MAXIMUM">1118</MDI>
+      <MDI key="STATISTICS_MEAN">946.82962962963</MDI>
+      <MDI key="STATISTICS_STDDEV">105.27117826802</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">58.7</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="286">
+    <Description>285_2025-10-13</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">631</MDI>
+      <MDI key="STATISTICS_MAXIMUM">887</MDI>
+      <MDI key="STATISTICS_MEAN">717.64285714286</MDI>
+      <MDI key="STATISTICS_STDDEV">89.499885987842</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">3.043</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="287">
+    <Description>286_2025-10-14</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">548</MDI>
+      <MDI key="STATISTICS_MAXIMUM">637</MDI>
+      <MDI key="STATISTICS_MEAN">568.575</MDI>
+      <MDI key="STATISTICS_STDDEV">24.208095236924</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">4.348</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="288">
+    <Description>287_2025-10-15</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">76</MDI>
+      <MDI key="STATISTICS_MAXIMUM">518</MDI>
+      <MDI key="STATISTICS_MEAN">360.14285714286</MDI>
+      <MDI key="STATISTICS_STDDEV">65.927191338803</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">31.96</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="289">
+    <Description>288_2025-10-16</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">202</MDI>
+      <MDI key="STATISTICS_MAXIMUM">305</MDI>
+      <MDI key="STATISTICS_MEAN">252.15032679739</MDI>
+      <MDI key="STATISTICS_STDDEV">22.966473027774</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">99.78</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="290">
+    <Description>289_2025-10-17</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">200</MDI>
+      <MDI key="STATISTICS_MAXIMUM">358.5</MDI>
+      <MDI key="STATISTICS_MEAN">275.36941964286</MDI>
+      <MDI key="STATISTICS_STDDEV">23.218181522992</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">97.39</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="291">
+    <Description>290_2025-10-18</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">206.5</MDI>
+      <MDI key="STATISTICS_MAXIMUM">415</MDI>
+      <MDI key="STATISTICS_MEAN">291.53695652174</MDI>
+      <MDI key="STATISTICS_STDDEV">37.191363880059</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="292">
+    <Description>291_2025-10-19</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">231</MDI>
+      <MDI key="STATISTICS_MAXIMUM">241</MDI>
+      <MDI key="STATISTICS_MEAN">236</MDI>
+      <MDI key="STATISTICS_STDDEV">5</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">0.4348</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="293">
+    <Description>292_2025-10-20</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="294">
+    <Description>293_2025-10-21</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="295">
+    <Description>294_2025-10-22</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="296">
+    <Description>295_2025-10-23</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="297">
+    <Description>296_2025-10-24</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">6.5</MDI>
+      <MDI key="STATISTICS_MAXIMUM">69.5</MDI>
+      <MDI key="STATISTICS_MEAN">27.477173913043</MDI>
+      <MDI key="STATISTICS_STDDEV">10.446870332435</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="298">
+    <Description>297_2025-10-25</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">81</MDI>
+      <MDI key="STATISTICS_MAXIMUM">339</MDI>
+      <MDI key="STATISTICS_MEAN">178.11290322581</MDI>
+      <MDI key="STATISTICS_STDDEV">54.285219925169</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">40.43</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="299">
+    <Description>298_2025-10-26</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_MAXIMUM">68</MDI>
+      <MDI key="STATISTICS_MEAN">16.551426426426</MDI>
+      <MDI key="STATISTICS_STDDEV">13.391527301649</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">96.52</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="300">
+    <Description>299_2025-10-27</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">22</MDI>
+      <MDI key="STATISTICS_MAXIMUM">119</MDI>
+      <MDI key="STATISTICS_MEAN">58.808695652174</MDI>
+      <MDI key="STATISTICS_STDDEV">17.868430091948</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="301">
+    <Description>300_2025-10-28</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">17.5</MDI>
+      <MDI key="STATISTICS_MAXIMUM">91.333333333333</MDI>
+      <MDI key="STATISTICS_MEAN">63.034420289855</MDI>
+      <MDI key="STATISTICS_STDDEV">15.341324674873</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="302">
+    <Description>301_2025-10-29</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="303">
+    <Description>302_2025-10-30</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="304">
+    <Description>303_2025-10-31</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="305">
+    <Description>304_2025-11-01</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="306">
+    <Description>305_2025-11-02</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="307">
+    <Description>306_2025-11-03</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">18</MDI>
+      <MDI key="STATISTICS_MAXIMUM">106</MDI>
+      <MDI key="STATISTICS_MEAN">44.058333333333</MDI>
+      <MDI key="STATISTICS_STDDEV">14.157910017471</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="308">
+    <Description>307_2025-11-04</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">38</MDI>
+      <MDI key="STATISTICS_MAXIMUM">83</MDI>
+      <MDI key="STATISTICS_MEAN">60.683695652174</MDI>
+      <MDI key="STATISTICS_STDDEV">8.5260123353274</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="309">
+    <Description>308_2025-11-05</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">23</MDI>
+      <MDI key="STATISTICS_MAXIMUM">170.33333333333</MDI>
+      <MDI key="STATISTICS_MEAN">68.251086956522</MDI>
+      <MDI key="STATISTICS_STDDEV">30.245593942338</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="310">
+    <Description>309_2025-11-06</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">47</MDI>
+      <MDI key="STATISTICS_MAXIMUM">115.5</MDI>
+      <MDI key="STATISTICS_MEAN">65.548148148148</MDI>
+      <MDI key="STATISTICS_STDDEV">12.11924406956</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">88.04</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="311">
+    <Description>310_2025-11-07</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">57</MDI>
+      <MDI key="STATISTICS_MAXIMUM">298</MDI>
+      <MDI key="STATISTICS_MEAN">172.41696750903</MDI>
+      <MDI key="STATISTICS_STDDEV">52.486119542167</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">60.22</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="312">
+    <Description>311_2025-11-08</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">256</MDI>
+      <MDI key="STATISTICS_MAXIMUM">379</MDI>
+      <MDI key="STATISTICS_MEAN">316.98362445415</MDI>
+      <MDI key="STATISTICS_STDDEV">24.693144178012</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">99.57</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="313">
+    <Description>312_2025-11-09</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">235</MDI>
+      <MDI key="STATISTICS_MAXIMUM">507</MDI>
+      <MDI key="STATISTICS_MEAN">338.70158102767</MDI>
+      <MDI key="STATISTICS_STDDEV">66.309035725489</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">55</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="314">
+    <Description>313_2025-11-10</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">121.5</MDI>
+      <MDI key="STATISTICS_MAXIMUM">261</MDI>
+      <MDI key="STATISTICS_MEAN">187.6865942029</MDI>
+      <MDI key="STATISTICS_STDDEV">25.130178491392</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="315">
+    <Description>314_2025-11-11</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">102</MDI>
+      <MDI key="STATISTICS_MAXIMUM">234</MDI>
+      <MDI key="STATISTICS_MEAN">155.91067538126</MDI>
+      <MDI key="STATISTICS_STDDEV">30.859522094504</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">99.78</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="316">
+    <Description>315_2025-11-12</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">147</MDI>
+      <MDI key="STATISTICS_MAXIMUM">231</MDI>
+      <MDI key="STATISTICS_MEAN">176.78064516129</MDI>
+      <MDI key="STATISTICS_STDDEV">21.002080071405</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">33.7</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="317">
+    <Description>316_2025-11-13</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="318">
+    <Description>317_2025-11-14</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="319">
+    <Description>318_2025-11-15</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="320">
+    <Description>319_2025-11-16</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="321">
+    <Description>320_2025-11-17</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">75</MDI>
+      <MDI key="STATISTICS_MAXIMUM">161</MDI>
+      <MDI key="STATISTICS_MEAN">95.242268041237</MDI>
+      <MDI key="STATISTICS_STDDEV">18.844673479987</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">42.17</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="322">
+    <Description>321_2025-11-18</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">7</MDI>
+      <MDI key="STATISTICS_MAXIMUM">78</MDI>
+      <MDI key="STATISTICS_MEAN">27.032036613272</MDI>
+      <MDI key="STATISTICS_STDDEV">12.702145937315</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">95</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="323">
+    <Description>322_2025-11-19</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">157</MDI>
+      <MDI key="STATISTICS_MAXIMUM">265</MDI>
+      <MDI key="STATISTICS_MEAN">183.57142857143</MDI>
+      <MDI key="STATISTICS_STDDEV">26.305117062531</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">3.043</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="324">
+    <Description>323_2025-11-20</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">230</MDI>
+      <MDI key="STATISTICS_MAXIMUM">494</MDI>
+      <MDI key="STATISTICS_MEAN">282.58181818182</MDI>
+      <MDI key="STATISTICS_STDDEV">52.77661014609</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">11.96</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="325">
+    <Description>324_2025-11-21</Description>
+    <Metadata>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="326">
+    <Description>325_2025-11-22</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">36.5</MDI>
+      <MDI key="STATISTICS_MAXIMUM">55</MDI>
+      <MDI key="STATISTICS_MEAN">45.038043478261</MDI>
+      <MDI key="STATISTICS_STDDEV">3.6747032530681</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="327">
+    <Description>326_2025-11-23</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">78</MDI>
+      <MDI key="STATISTICS_MAXIMUM">239</MDI>
+      <MDI key="STATISTICS_MEAN">164.1746031746</MDI>
+      <MDI key="STATISTICS_STDDEV">30.448693779617</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">82.17</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>

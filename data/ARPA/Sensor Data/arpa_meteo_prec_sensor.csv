@@ -1,0 +1,29 @@
+sensor_type,measurement_unit,station_id,station_name,altitude,province,is_historical,date_start,date_stop,utm_north,utm_east,latitude,longitude,sensor_id
+Precipitation,mm,100,Milano Lambrate,120,MI,False,2001-06-29,,5038171.0000,520120.0000,45.4968,9.2575,2006
+Precipitation,mm,109,Sant'Angelo Lodigiano,60,LO,False,1993-03-11,,5011978.0000,529787.0000,45.2607,9.3797,2129
+Precipitation,mm,114,Landriano Cascina Marianna,88,PV,False,2005-09-29,,5018600.0000,520938.0000,45.3206,9.2672,2195
+Precipitation,mm,123,Cavenago d'Adda,67,LO,False,2002-08-08,,5013018.0000,544138.0000,45.2693,9.5627,2336
+Precipitation,mm,137,Rivolta d'Adda Ist. Spallanzani,102,CR,False,1993-06-09,,5032417.0000,540720.0000,45.4441,9.5207,2502
+Precipitation,mm,147,Cinisello Balsamo Parco Nord,142,MI,False,2002-05-30,,5043257.0000,516051.0000,45.5427,9.2056,4065
+Precipitation,mm,148,Arconate SMR,182,MI,False,2009-03-05,,5043898.0000,488082.0000,45.5485,8.8473,4112
+Precipitation,mm,595,Filago v.Don Milani,190,BG,False,1991-12-07,,5053519.0000,543342.0000,45.6339,9.5561,5856
+Precipitation,mm,525,Corsico v.le Italia,119,MI,False,2002-03-29,,5031403.0000,507619.0000,45.4361,9.0974,5902
+Precipitation,mm,502,Milano v.Juvara,122,MI,False,1989-01-01,,5035546.0000,517377.0000,45.4732,9.2223,5908
+Precipitation,mm,614,Rodano v.Turati,112,MI,False,1999-01-01,,5035511.0000,527631.0000,45.4726,9.3535,5916
+Precipitation,mm,513,Trezzo sull'Adda v.Nenni,199,MI,False,2001-02-21,,5051253.0000,539618.0000,45.6137,9.5081,5918
+Precipitation,mm,558,Busto Arsizio  Accam,206,VA,False,1998-12-05,,5047718.0000,487687.0000,45.5829,8.8422,5933
+Precipitation,mm,862,Lodi v. X Maggio,64,LO,False,2003-02-18,,5018523.0000,539869.0000,45.3191,9.5087,8193
+Precipitation,mm,897,Busto Arsizio v.Rossini,242,VA,False,2003-03-26,,5052553.0000,486271.0000,45.6264,8.8239,8219
+Precipitation,mm,503,Milano P.zza Zavattari,122,MI,False,2004-11-22,,5035847.0000,511082.0000,45.4761,9.1418,9341
+Precipitation,mm,687,Ferno v.Di Dio,215,VA,False,2007-08-13,,5051773.0000,481053.0000,45.6192,8.7570,10373
+Precipitation,mm,554,Saronno v.Santuario,212,VA,False,2010-07-06,,5052646.0000,502058.0000,45.6274,9.0264,10554
+Precipitation,mm,1899,Bereguardo Fornasetta,95,PV,False,2020-08-11,,5012143.0000,501719.0000,45.2628,9.0219,12724
+Precipitation,mm,1327,Milano v.Rosellini,124,MI,False,2012-04-02,,5037412.0000,515187.0000,45.4901,9.1944,14121
+Precipitation,mm,868,Lesmo Peregallo,180,MB,False,2014-10-13,,5053558.0000,523312.0000,45.6352,9.2991,14712
+Precipitation,mm,1546,Rho Scalo Fiorenza - Prato,143,MI,False,2015-02-24,,5040479.0000,506867.0000,45.5178,9.0879,14741
+Precipitation,mm,1874,Magenta cascina Mainaga,137,MI,False,2018-11-13,,5033848.0000,488617.0000,45.4581,8.8544,17487
+Precipitation,mm,620,Milano v.Brera,122,MI,False,2016-07-11,,5035365.0000,514782.0000,45.4717,9.1891,19373
+Precipitation,mm,1509,Paderno Dugnano Palazzolo Parco Borghetto,170,MI,False,2014-05-21,,5047745.0000,512305.0000,45.5831,9.1577,30525
+Precipitation,mm,1510,Monza v.Monte Generoso,173,MB,False,2014-09-26,,5048372.0000,519174.0000,45.5886,9.2458,30533
+Precipitation,mm,1511,Rescaldina,215,MI,False,2014-09-26,,5050479.0000,496327.0000,45.6078,8.9529,30536
+Precipitation,mm,1512,Pogliano Milanese,160,MI,False,2014-09-26,,5042449.0000,500406.0000,45.5356,9.0052,30539
