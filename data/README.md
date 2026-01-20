@@ -10,29 +10,25 @@ The data are provided to:
 ## Folder structure
 data/
 │
-├── images/ # Sample outdoor images (e.g. webcam or ground-level photographs)
-├── ground_pm/ # Ground-based particulate matter measurements
-├── satellite/ # Complementary satellite-derived air quality products
-├── metadata/ # Image metadata (time, location, acquisition conditions)
-└── processed/ # Preprocessed and analysis-ready datasets used by the notebooks
+├── Images/ # Sample outdoor images
+├── ARPA/ # Ground-based measurements
+├── MODIS/ # Complementary satellite-derived aerosol optical depth
+└── ERA5/ # Model based measurments 
 
 
 ## Description of datasets
 
-- **images/**  
+- **Images/**  
   Representative outdoor images used as input for image-based PM estimation methods.
 
-- **ground_pm/**  
-  Authoritative PM measurements from ground monitoring stations used for validation and benchmarking.
+- **ARPA/**  
+  Authoritative ground measurements from ground monitoring stations used for validation and benchmarking.
 
-- **satellite/**  
-  Satellite-based aerosol or air quality products used as complementary reference data.
+- **MODIS/**  
+  Satellite-based aerosol products used as complementary reference data.
 
-- **metadata/**  
-  Geospatial and temporal metadata associated with the images (e.g. camera location, acquisition time).
-
-- **processed/**  
-  Harmonized datasets generated during preprocessing and directly used by the code notebooks.
+- **ERA5/**  
+  Global atmospheric reanalysis dataset produced by ECMWF that provides atmospheric variables.
 
 ## Important notes
 
