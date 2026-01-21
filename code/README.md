@@ -30,29 +30,28 @@ code/
   The folder includes captured images from the Milano MeteoGiuliacci webcam that will be used as input for the physical model.
 
 - **model input/**  
-  The folder includes two datasets. ML_DL_input is a ready-to-use dataset that has all the inputs for the ML and DL models included**,** therefore the user does not need to merge gathered data anymore. PM25_MI_Marche_ARPA    contains the closest authoritative PM2.5 measurements for the webcam images that are used as inputs for the physical model.
+  The folder includes two datasets. ML_DL_input is a ready-to-use dataset that has all the inputs for the ML and DL models included, therefore the user does not need to merge gathered data anymore. PM25_MI_Marche_ARPA    contains the closest authoritative PM2.5 measurements for the webcam images that are used as inputs for the physical model.
 
 - **processing outputs/**  
-  Notebooks implementing statistical or machine-learning models relating image features to particulate matter concentrations.
+  Outcomes will be saved in this path.
 
 - **01-visual_comparison/**  
-  Tools for comparing image-based PM estimates with authoritative ground-based measurements and complementary satellite products.
+  This notebook provides an interactive viewer to compare two webcam images side-by-side using a swipe overlay with multiple viewing modes (RGB, HSV, individual color channels, saturation, and blue/red ratio) and adjustable region-of-interest cropping.
 
 - **02-image_feature_extraction/**  
-  Integrated, step-by-step examples combining preprocessing, feature extraction, modelling, and evaluation.
+  This notebook processes a folder of webcam images by cropping out overlay ribbons, splitting each image into sky and ground regions, and extracting mean RGB values for each region to export as a CSV file.
 
 - **03-physical_based_model/**  
-  Integrated, step-by-step examples combining preprocessing, feature extraction, modelling, and evaluation.
+  This notebook implements a physical-based model that estimates PM2.5 concentrations from webcam sky images by extracting spatial and wavelet-transform entropy features from saturation channels, fitting reference distributions on clean-air samples, computing a combined quality score, and calibrating a logistic regression to predict PM2.5 levels.
 
 - **04-pm25_rgb_analysis/**  
-  Integrated, step-by-step examples combining preprocessing, feature extraction, modelling, and evaluation.
+  This notebook analyzes and visualizes the relationship between PM2.5 concentrations and RGB channel values from sky and ground regions of webcam images.
 
 - **05-decision_tree/**  
-  Integrated, step-by-step examples combining preprocessing, feature extraction, modelling, and evaluation.
+  This notebook trains a Decision Tree Regressor to predict PM2.5 concentrations from webcam RGB features, meteorological variables, and engineered energy terms, with separate day/night models.
 
 - **06-mlp/**  
-  Integrated, step-by-step examples combining preprocessing, feature extraction, modelling, and evaluation.
-
+  This notebook builds and trains a Multi-Layer Perceptron neural network to predict PM2.5 concentrations using meteorological variables, atmospheric energy parameters, and webcam-derived RGB color features with cyclical time encoding.
 ## Notes
 
 - Notebooks are documented inline to clarify assumptions and parameter choices.
