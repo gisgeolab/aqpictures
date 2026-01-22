@@ -34,3 +34,12 @@ aqpictures/
 ## Licensing
 - Code in this repository is released under the **MIT License** (see [LICENSE](https://github.com/gisgeolab/aqpictures/blob/main/LICENSE)).
 - Data files in the `data/` directory are released under the **CC BY 4.0 License** (see [LICENSE_DATA](https://github.com/gisgeolab/aqpictures/blob/main/data/LICENSE_DATA)).
+
+## Credits
+
+D. Oxoli¹, S. Li², S. Xu³, M. Brovelli¹, F. Pirotti⁴, A. Moazzam¹ @2026  
+
+¹ Politecnico di Milano, Italy  
+² Toronto Metropolitan University, Canada  
+³ Beijing University of Civil Engineering and Architecture, China  
+⁴ University of Padua, Italy  
