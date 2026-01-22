@@ -15,7 +15,7 @@ aqpictures/
 │
 ├── code/ # Jupyter notebooks and scripts implementing image-based PM estimation methods
 ├── data/ # Sample datasets used for method testing and benchmarking
-└── references / # Reference scientific literature list
+└── references/ # Reference scientific literature list
 ```
 
 ## How to use this repository
