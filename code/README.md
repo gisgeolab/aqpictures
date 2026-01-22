@@ -8,6 +8,7 @@ The code is designed to:
 - act as a starting point for adaptation to other study areas.
 
 ## Folder structure
+```
 data/
 │
 ├── images/ # Sample outdoor images
@@ -22,7 +23,7 @@ code/
 ├── 04-pm25_rgb_analysis/ # Analyzes the relationship between PM₂.₅ concentration and RGB image channel statistics
 ├── 05-decision_tree/ # Performs the machine learning model (CART) for ground PM2.5 estimation
 └── 06-mlp/ # Performs the deep learning model (MLP) for ground PM2.5 estimation
-
+```
 
 ## Description of components
 
@@ -52,6 +53,7 @@ code/
 
 - **06-mlp/**  
   This notebook builds and trains a Multi-Layer Perceptron neural network to predict PM2.5 concentrations using meteorological variables, atmospheric energy parameters, and webcam-derived RGB color features with cyclical time encoding.
+
 ## Notes
 
 - Notebooks are documented inline to clarify assumptions and parameter choices.
