@@ -21,7 +21,7 @@ aqpictures/
 ## How to use this repository
 
 1. Start from the `code/` folder to explore the implemented workflows and notebooks.
-2. Use the `data/` folder to access the sample datasets required to run the examples.
+2. Use the `data/` folder to access the sample datasets considered in the project.
 3. Follow notebook-level documentation for details on data preparation, method assumptions, and outputs.
 
 ---
