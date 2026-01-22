@@ -1,4 +1,6 @@
 # AQpictures
+
+**Air quality from pictures:** benchmarking and assessment of image-based methods for particulate matter estimation
 ---
 This repository provides a **scientific toolkit** (an open repository with analysis-ready data, method source code, scripts, and documentation) supporting the implementation, testing, and benchmarking of **image-based methods for particulate matter (PM) estimation** from the *AQpictures* project, developed within the [**ISPRS Scientific Initiatives 2025**](https://www.isprs.org/society/si/default.aspx) framework.
 
