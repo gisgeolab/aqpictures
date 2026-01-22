@@ -8,13 +8,14 @@ The data are provided to:
 - facilitate adaptation to other geographic contexts.
 
 ## Folder structure
+```
 data/
 │
 ├── Images/ # Sample outdoor images
 ├── ARPA/ # Ground-based measurements
 ├── MODIS/ # Complementary satellite-derived aerosol optical depth
 └── ERA5/ # Model based measurments 
-
+```
 
 ## Description of datasets
 
