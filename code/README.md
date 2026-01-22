@@ -19,10 +19,10 @@ code/
 │
 ├── 01-visual_comparison/ #  Interactive viewer to compare two images using a swipe overlay
 ├── 02-image_feature_extraction/ # Clips the desired areas of the images, divides them in sky and ground section, and averages their RGB channel information
-├── 03-physical_based_model/ # Performs the physical based model for ground PM2.5 estimation
+├── 03-physical_based_model/ # Performs a physics-based model for ground PM2.5 estimation
 ├── 04-pm25_rgb_analysis/ # Analyzes the relationship between PM₂.₅ concentration and RGB image channel statistics
-├── 05-decision_tree/ # Performs the machine learning model (CART) for ground PM2.5 estimation
-└── 06-mlp/ # Performs the deep learning model (MLP) for ground PM2.5 estimation
+├── 05-decision_tree/ # Performs a machine learning model (CART) for ground PM2.5 estimation
+└── 06-mlp/ # Performs a deep learning model (MLP) for ground PM2.5 estimation
 ```
 
 ## Description of components
