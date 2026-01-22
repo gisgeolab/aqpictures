@@ -28,10 +28,10 @@ code/
 ## Description of components
 
 - **images/**  
-  The folder includes captured images from the Milano MeteoGiuliacci webcam that will be used as input for the physical model.
-
+  The folder includes captured images from the Milano [**MeteoGiuliacci**](https://www.meteogiuliacci.it/meteo-webcam/webcam-milano) webcam, used as input for the physical model.
+  
 - **model input/**  
-  The folder includes two datasets. ML_DL_input is a ready-to-use dataset that has all the inputs for the ML and DL models included, therefore the user does not need to merge gathered data anymore. PM25_MI_Marche_ARPA    contains the closest authoritative PM2.5 measurements for the webcam images that are used as inputs for the physical model.
+  The folder includes two datasets. *ML_DL_input.csv* is a ready-to-use dataset that has all the inputs for the ML and DL models included, therefore the user does not need to merge gathered data anymore. *PM25_MI_Marche_ARPA.csv* contains the closest authoritative PM2.5 measurements for the webcam images that are used as inputs for the physical model.
 
 - **processing outputs/**  
   Outcomes will be saved in this path.
