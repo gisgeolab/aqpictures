@@ -37,7 +37,7 @@ aqpictures/
 
 ## Credits
 
-D. Oxoli¹, S. Li², S. Xu³, M. Brovelli¹, F. Pirotti⁴, A. Moazzam¹ @2026  
+D. Oxoli¹, S. Li², S. Xu³, M.A. Brovelli¹, F. Pirotti⁴, A. Moazzam¹ @2026  
 
 ¹ Politecnico di Milano, Italy  
 ² Toronto Metropolitan University, Canada  
