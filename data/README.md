@@ -20,16 +20,22 @@ data/
 ## Description of datasets
 
 - **Images/**  
-  Representative outdoor images used as input for image-based PM estimation methods.
+  Webcam images are used as input for image-based PM estimation methods.
 
 - **ARPA/**  
-  Authoritative ground measurements from ground monitoring stations used for validation and benchmarking.
+  Authoritative ground-based air quality measurements from the regional monitoring network operated by **ARPA Lombardia** (Agenzia Regionale per la Protezione dell’Ambiente della Lombardia), used for validation and benchmarking.  
+  Reference: https://www.arpalombardia.it
 
 - **MODIS/**  
-  Satellite-based aerosol products used as complementary reference data.
+  Satellite-derived aerosol products from the **Moderate Resolution Imaging Spectroradiometer (MODIS)** aboard NASA’s Terra and Aqua satellites, used as complementary reference data (e.g. Aerosol Optical Depth).  
+  Reference: https://modis.gsfc.nasa.gov  
+  Data access: https://ladsweb.modaps.eosdis.nasa.gov
 
 - **ERA5/**  
-  Global atmospheric reanalysis dataset produced by ECMWF that provides atmospheric variables.
+  Global atmospheric reanalysis dataset produced by the **European Centre for Medium-Range Weather Forecasts (ECMWF)**, providing hourly atmospheric variables derived from model simulations and data assimilation.  
+  Reference: https://www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era5  
+  Data access: https://cds.climate.copernicus.eu
+
 
 ## Important notes
 
