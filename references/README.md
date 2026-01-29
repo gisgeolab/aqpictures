@@ -70,42 +70,40 @@
 
 35. Qu, Y.; Fang, Y.; Ji, S.; Yuan, C.; Wu, H.; Zhu, S.; Qin, H.; Que, F. *Deep Learning-Based Atmospheric Visibility Detection*. **Atmosphere** 15(11) (2024). [https://doi.org/10.3390/atmos15111394](https://doi.org/10.3390/atmos15111394)
 
-36. Qiao, Junfei — duplicate already represented above as Qiao (see item 34). *(If you want duplicates removed, I can deduplicate.)*
+36. Sarkar, P.; Saha, D. D. V.; Saha, M. *Real-Time Air Quality Index Detection through Regression-Based Convolutional Neural Network Model on Captured Images*. **Environmental Quality Management** 34(1), e22276 (2024). [https://doi.org/10.1002/tqem.22276](https://doi.org/10.1002/tqem.22276)
 
-37. Sarkar, P.; Saha, D. D. V.; Saha, M. *Real-Time Air Quality Index Detection through Regression-Based Convolutional Neural Network Model on Captured Images*. **Environmental Quality Management** 34(1), e22276 (2024). [https://doi.org/10.1002/tqem.22276](https://doi.org/10.1002/tqem.22276)
+37. Shin, J.; Kim, D.; Noh, Y. *Estimation of aerosol extinction coefficient using camera images and application in mass extinction efficiency retrieval*. **Remote Sensing** 14(5), 1224 (2022). [https://doi.org/10.3390/rs14051224](https://doi.org/10.3390/rs14051224)
 
-38. Shin, J.; Kim, D.; Noh, Y. *Estimation of aerosol extinction coefficient using camera images and application in mass extinction efficiency retrieval*. **Remote Sensing** 14(5), 1224 (2022). [https://doi.org/10.3390/rs14051224](https://doi.org/10.3390/rs14051224)
+38. Song, S.; Lam, J. C. K.; Han, Y.; Li, V. O. K. *ResNet-LSTM for Real-Time PM2.5 and PM10 Estimation Using Sequential Smartphone Images*. **IEEE Access** 8, 220069–220082 (2020). [https://doi.org/10.1109/ACCESS.2020.3042278](https://doi.org/10.1109/ACCESS.2020.3042278)
 
-39. Song, S.; Lam, J. C. K.; Han, Y.; Li, V. O. K. *ResNet-LSTM for Real-Time PM2.5 and PM10 Estimation Using Sequential Smartphone Images*. **IEEE Access** 8, 220069–220082 (2020). [https://doi.org/10.1109/ACCESS.2020.3042278](https://doi.org/10.1109/ACCESS.2020.3042278)
+49. Song, S.; Li, V. O. K.; Lam, J. C. K.; Wang, Y. *Personalized Ambient Pollution Estimation Based on Stationary-Camera-Taken Images Under Cross-Camera Information Sharing in Smart City*. **IEEE Internet of Things Journal** 10(17), 15420–15430 (2023). [https://doi.org/10.1109/JIOT.2023.3263949](https://doi.org/10.1109/JIOT.2023.3263949)
 
-40. Song, S.; Li, V. O. K.; Lam, J. C. K.; Wang, Y. *Personalized Ambient Pollution Estimation Based on Stationary-Camera-Taken Images Under Cross-Camera Information Sharing in Smart City*. **IEEE Internet of Things Journal** 10(17), 15420–15430 (2023). [https://doi.org/10.1109/JIOT.2023.3263949](https://doi.org/10.1109/JIOT.2023.3263949)
+40. Spyromitros-Xioufis, E.; Moumtzidou, A.; Papadopoulos, S.; Vrochidis, S.; Kompatsiaris, Y.; Georgoulias, A. K.; Alexandri, G.; Kourtidis, K. *Towards improved air quality monitoring using publicly available sky images*. In: *Multimedia Tools and Applications for Environmental & Biodiversity Informatics*, 67–92 (2018). [https://doi.org/10.1007/978-3-319-76445-0_5](https://doi.org/10.1007/978-3-319-76445-0_5)
 
-41. Spyromitros-Xioufis, E.; Moumtzidou, A.; Papadopoulos, S.; Vrochidis, S.; Kompatsiaris, Y.; Georgoulias, A. K.; Alexandri, G.; Kourtidis, K. *Towards improved air quality monitoring using publicly available sky images*. In: *Multimedia Tools and Applications for Environmental & Biodiversity Informatics*, 67–92 (2018). [https://doi.org/10.1007/978-3-319-76445-0_5](https://doi.org/10.1007/978-3-319-76445-0_5)
+41. Sun, K.; Tang, L.; Huang, S.; Qian, J. *A photo-based quality assessment model for the estimation of PM2.5 concentrations*. **IET Image Processing** 16(4), 1008–1016 (2022). [https://doi.org/10.1049/ipr2.12201](https://doi.org/10.1049/ipr2.12201)
 
-42. Sun, K.; Tang, L.; Huang, S.; Qian, J. *A photo-based quality assessment model for the estimation of PM2.5 concentrations*. **IET Image Processing** 16(4), 1008–1016 (2022). [https://doi.org/10.1049/ipr2.12201](https://doi.org/10.1049/ipr2.12201)
+42. Wang, F.; Yao, S.; Luo, H.; Huang, B. *Estimating high-resolution PM2.5 concentrations by Fusing Satellite AOD and Smartphone photographs using a Convolutional Neural Network and ensemble learning*. **Remote Sensing** 14(6), 1515 (2022). [https://doi.org/10.3390/rs14061515](https://doi.org/10.3390/rs14061515)
 
-43. Wang, F.; Yao, S.; Luo, H.; Huang, B. *Estimating high-resolution PM2.5 concentrations by Fusing Satellite AOD and Smartphone photographs using a Convolutional Neural Network and ensemble learning*. **Remote Sensing** 14(6), 1515 (2022). [https://doi.org/10.3390/rs14061515](https://doi.org/10.3390/rs14061515)
+43. Wang, G.; Shi, Q.; Wang, H.; Sun, K.; Lu, Y.; Di, K. *Multi-modal image feature fusion-based PM2.5 concentration estimation*. **Atmospheric Pollution Research** 13(3), 101345 (2022). [https://doi.org/10.1016/j.apr.2022.101345](https://doi.org/10.1016/j.apr.2022.101345)
 
-44. Wang, G.; Shi, Q.; Wang, H.; Sun, K.; Lu, Y.; Di, K. *Multi-modal image feature fusion-based PM2.5 concentration estimation*. **Atmospheric Pollution Research** 13(3), 101345 (2022). [https://doi.org/10.1016/j.apr.2022.101345](https://doi.org/10.1016/j.apr.2022.101345)
+44. Wang, H.; Yuan, X.; Wang, X.; Zhang, Y.; Dai, Q. *Real-time air quality estimation based on color image processing*. In: *2014 IEEE Visual Communications and Image Processing Conference*, 326–329 (2014). [https://doi.org/10.1109/VCIP.2014.7051572](https://doi.org/10.1109/VCIP.2014.7051572)
 
-45. Wang, H.; Yuan, X.; Wang, X.; Zhang, Y.; Dai, Q. *Real-time air quality estimation based on color image processing*. In: *2014 IEEE Visual Communications and Image Processing Conference*, 326–329 (2014). [https://doi.org/10.1109/VCIP.2014.7051572](https://doi.org/10.1109/VCIP.2014.7051572)
+45. Wang, X.; Wang, M.; Liu, X.; Mao, Y.; Chen, Y.; Dai, S. *Surveillance-image-based outdoor air quality monitoring*. **Environmental Science and Ecotechnology** 18, 100319 (2024). [https://doi.org/10.1016/j.ese.2023.100319](https://doi.org/10.1016/j.ese.2023.100319)
 
-46. Wang, X.; Wang, M.; Liu, X.; Mao, Y.; Chen, Y.; Dai, S. *Surveillance-image-based outdoor air quality monitoring*. **Environmental Science and Ecotechnology** 18, 100319 (2024). [https://doi.org/10.1016/j.ese.2023.100319](https://doi.org/10.1016/j.ese.2023.100319)
+46. Watson, J. G.; Chow, J. C.; Moosmüller, H.; Green, M.; Frank, N. *Guidance for Using Continuous Monitors in PM2.5 Monitoring Networks* (Tech. Rep.). Nevada Univ. System, Desert Research Inst., Reno, NV (1998). [https://www3.epa.gov/ttnamti1/files/ambient/pm25/r-98-012.pdf](https://www3.epa.gov/ttnamti1/files/ambient/pm25/r-98-012.pdf)
 
-47. Watson, J. G.; Chow, J. C.; Moosmüller, H.; Green, M.; Frank, N. *Guidance for Using Continuous Monitors in PM2.5 Monitoring Networks* (Tech. Rep.). Nevada Univ. System, Desert Research Inst., Reno, NV (1998). [https://www3.epa.gov/ttnamti1/files/ambient/pm25/r-98-012.pdf](https://www3.epa.gov/ttnamti1/files/ambient/pm25/r-98-012.pdf)
+47. Wu, Y.; Wang, X.; Wang, M.; Liu, X.; Zhu, S. *Time-Series Forecasting of PM2.5 and PM10 Concentrations Based on the Integration of Surveillance Images*. **Sensors** 25(1), 95 (2024). [https://doi.org/10.3390/s25010095](https://doi.org/10.3390/s25010095)
 
-48. Wu, Y.; Wang, X.; Wang, M.; Liu, X.; Zhu, S. *Time-Series Forecasting of PM2.5 and PM10 Concentrations Based on the Integration of Surveillance Images*. **Sensors** 25(1), 95 (2024). [https://doi.org/10.3390/s25010095](https://doi.org/10.3390/s25010095)
+48. Yao, S.; Wang, F.; Huang, B. *Measuring PM2.5 concentrations from a single smartphone photograph*. **Remote Sensing** 14(11), 2572 (2022). [https://doi.org/10.3390/rs14112572](https://doi.org/10.3390/rs14112572)
 
-49. Yao, S.; Wang, F.; Huang, B. *Measuring PM2.5 concentrations from a single smartphone photograph*. **Remote Sensing** 14(11), 2572 (2022). [https://doi.org/10.3390/rs14112572](https://doi.org/10.3390/rs14112572)
+49. Yue, G.; Gu, K.; Qiao, J. *Effective and efficient photo-based PM2.5 concentration estimation*. **IEEE Transactions on Instrumentation and Measurement** 68(10), 3962–3971 (2019). [https://doi.org/10.1109/TIM.2018.2886091](https://doi.org/10.1109/TIM.2018.2886091)
 
-50. Yue, G.; Gu, K.; Qiao, J. *Effective and efficient photo-based PM2.5 concentration estimation*. **IEEE Transactions on Instrumentation and Measurement** 68(10), 3962–3971 (2019). [https://doi.org/10.1109/TIM.2018.2886091](https://doi.org/10.1109/TIM.2018.2886091)
+50. Zhang, B.; Geng, Z.; Zhang, H.; Pan, J. *Densely connected convolutional networks with attention long short-term memory for estimating PM2.5 values from images*. **Journal of Cleaner Production** 333, 130101 (2022). [https://doi.org/10.1016/j.jclepro.2021.130101](https://doi.org/10.1016/j.jclepro.2021.130101)
 
-51. Zhang, B.; Geng, Z.; Zhang, H.; Pan, J. *Densely connected convolutional networks with attention long short-term memory for estimating PM2.5 values from images*. **Journal of Cleaner Production** 333, 130101 (2022). [https://doi.org/10.1016/j.jclepro.2021.130101](https://doi.org/10.1016/j.jclepro.2021.130101)
+51. Zhang, C.; Yan, J.; Li, C.; Wu, H.; Bie, R. *End-to-end learning for image-based air quality level estimation*. **Machine Vision and Applications** 29(4), 601–615 (2018). [https://doi.org/10.1007/s00138-018-0919-x](https://doi.org/10.1007/s00138-018-0919-x)
 
-52. Zhang, C.; Yan, J.; Li, C.; Wu, H.; Bie, R. *End-to-end learning for image-based air quality level estimation*. **Machine Vision and Applications** 29(4), 601–615 (2018). [https://doi.org/10.1007/s00138-018-0919-x](https://doi.org/10.1007/s00138-018-0919-x)
+52. Zhang, Q.; Fu, F.; Tian, R. *A deep learning and image-based model for air quality estimation*. **Science of The Total Environment** 724, 138178 (2020). [https://doi.org/10.1016/j.scitotenv.2020.138178](https://doi.org/10.1016/j.scitotenv.2020.138178)
 
-53. Zhang, Q.; Fu, F.; Tian, R. *A deep learning and image-based model for air quality estimation*. **Science of The Total Environment** 724, 138178 (2020). [https://doi.org/10.1016/j.scitotenv.2020.138178](https://doi.org/10.1016/j.scitotenv.2020.138178)
+53. Zhang, T.; Dick, R. P. *Estimation of multiple atmospheric pollutants through image analysis*. In: *2019 IEEE International Conference on Image Processing (ICIP)*, 2060–2064 (2019). [https://doi.org/10.1109/ICIP.2019.8803130](https://doi.org/10.1109/ICIP.2019.8803130)
 
-54. Zhang, T.; Dick, R. P. *Estimation of multiple atmospheric pollutants through image analysis*. In: *2019 IEEE International Conference on Image Processing (ICIP)*, 2060–2064 (2019). [https://doi.org/10.1109/ICIP.2019.8803130](https://doi.org/10.1109/ICIP.2019.8803130)
-
-55. Zhang, T.; Dick, R. P. *Image-Based Air Quality Forecasting Through Multi-Level Attention*. In: *2022 IEEE International Conference on Image Processing (ICIP)*, 686–690 (2022). [https://doi.org/10.1109/ICIP46576.2022.9897241](https://doi.org/10.1109/ICIP46576.2022.9897241)
+54. Zhang, T.; Dick, R. P. *Image-Based Air Quality Forecasting Through Multi-Level Attention*. In: *2022 IEEE International Conference on Image Processing (ICIP)*, 686–690 (2022). [https://doi.org/10.1109/ICIP46576.2022.9897241](https://doi.org/10.1109/ICIP46576.2022.9897241)
