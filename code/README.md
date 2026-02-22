@@ -52,7 +52,7 @@ code/
   This notebook trains a Decision Tree Regressor to predict PM2.5 concentrations from webcam RGB features, meteorological variables, and engineered energy terms, with separate day/night models.
 
 - **06-mlp/**  
-  This notebook builds and trains a Multi-Layer Perceptron neural network to predict PM2.5 concentrations using meteorological variables, atmospheric energy parameters, and webcam-derived RGB color features with cyclical time encoding.
+  This notebook builds and trains a Multi-Layer Perceptron neural network to predict PM2.5 concentrations using meteorological variables, atmospheric parameters, and webcam-derived RGB color features with cyclical time encoding.
 
 ## Notes
 
