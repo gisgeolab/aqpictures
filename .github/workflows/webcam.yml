@@ -1,0 +1,56 @@
+name: webcam download
+
+on:
+  schedule:
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+
+      - name: install python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: install libraries
+        run: |
+          pip install requests beautifulsoup4
+
+      - name: show script head
+        run: |
+          ls -la
+          sed -n '1,80p' src/data/webcam.py
+
+      - name: run script
+        run: |
+          python src/data/webcam.py
+
+      - name: show downloaded files
+        run: |
+          ls -R images || true
+
+      - name: install rclone
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y rclone
+
+      - name: write rclone config
+        run: |
+          mkdir -p ~/.config/rclone
+          cat > ~/.config/rclone/rclone.conf << 'EOF'
+          ${{ secrets.RCLONE_CONF }}
+          EOF
+
+      - name: test rclone remote
+        run: |
+          rclone lsd gdrive: || true
+
+      - name: upload images to Google Drive
+        run: |
+          rclone copy webcam_MI_2026 gdrive:webcam_MI_2026

@@ -1,0 +1,3 @@
+Weighting,Test MAE,Test RMSE,Test R2
+Month weighted (primary),4.703394,6.0926723,0.6528319120407104
+Unweighted (supplementary),4.178772,5.681297,0.6317324638366699

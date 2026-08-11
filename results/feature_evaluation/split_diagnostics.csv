@@ -1,0 +1,4 @@
+Strategy,Development samples,Test samples,Development dates,Test dates,Shared dates
+Month-weighted date-grouped random,2544,636,148,38,0
+Standard row-wise random,2544,636,186,182,182
+Temporal hold-out,2451,729,148,38,0

@@ -1,0 +1,34 @@
+# Notebook environment
+jupyterlab
+ipykernel
+ipython
+ipywidgets
+
+# Core data processing
+numpy
+pandas
+scipy
+pyarrow
+
+# Visualization and data-quality analysis
+matplotlib
+seaborn
+missingno
+
+# Machine learning and deep learning
+scikit-learn
+torch
+torchvision
+
+# Image processing
+Pillow
+imageio
+
+# Environmental data acquisition and processing
+xarray
+netCDF4
+cdsapi
+
+# HTTP and webcam collection
+requests
+beautifulsoup4

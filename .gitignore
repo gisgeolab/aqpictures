@@ -1,0 +1,32 @@
+# macOS metadata
+.DS_Store
+**/.DS_Store
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE and editor settings
+.vscode/
+.idea/
+
+# reports are kept locally only
+docs/
+
+# Raw datasets are distributed separately
+data/raw/*
+!data/raw/samples/
+!data/raw/samples/**
+
+# Generated model artifacts and embedding caches
+results/**/*.npz
+results/**/*.pt
