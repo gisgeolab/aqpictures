@@ -150,16 +150,18 @@ webcam-pm25-benchmark/
 
 # Data Availability
 
-The repository is designed to include the complete intermediate and processed datasets required for the feature evaluation and conventional model benchmark:
+The repository includes the complete intermediate and processed datasets required for the feature evaluation and conventional model benchmark:
 
 ```text
 data/interim/
 data/processed/
 ```
 
-The complete raw dataset is not committed because the webcam image archive is approximately 2 GB and the other raw sources can be downloaded or supplied separately. Only a small number of representative raw samples may be included for format and pipeline demonstrations.
+The complete raw webcam image archive is not committed to the repository because of its size. It is stored separately on Google Drive and is publicly accessible here:
 
-The full webcam archive is stored separately in Google Drive. To run Notebook 05, download the complete image collection and place the images in:
+[Webcam Image Archive (Google Drive)](https://drive.google.com/drive/folders/1sUjlPimVWVhaKdo9CWsO0uQVuJK8V2J6?usp=drive_link)
+
+After downloading, place the images in:
 
 ```text
 data/raw/images/
@@ -171,15 +173,19 @@ The expected image filenames use timestamps such as:
 20250327-1200.jpg
 ```
 
+The raw webcam images are used for ROI inspection, handcrafted image-feature extraction, dataset construction, and pretrained CNN representation learning.
+
+Other raw data sources are not fully committed to the repository. PM2.5 and ERA5 data can be retrieved through the corresponding data-access procedures implemented in the project, while ARPA Lombardia meteorological source files must be supplied separately.
+
 Availability by entry point:
 
 | Starting point | Repository data sufficient? | Additional requirements |
-|---|---:|---|
-| Notebook 01 | No | Raw images, ARPA source files, network access, and CDS API configuration |
+| -------------- | --------------------------: | ----------------------- |
+| Notebook 01 | No | Raw webcam images, ARPA source files, network access, and CDS API configuration |
 | Notebook 02 | Yes | `data/interim/merged_dataset.csv` |
 | Notebook 03 | Yes | `data/processed/final_dataset.csv` |
 | Notebook 04 | Yes | `data/processed/final_dataset.csv` |
-| Notebook 05 | No | Complete raw images and the benchmark export from Notebook 04 |
+| Notebook 05 | No | Raw webcam images and the benchmark export from Notebook 04 |
 
 ---
 
