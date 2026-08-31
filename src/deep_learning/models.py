@@ -5,27 +5,36 @@ import torch.nn as nn
 
 
 class EmbeddingFusionRegressor(nn.Module):
-    def __init__(self, image_dimension, tabular_dimension, dropout):
+    def __init__(
+        self,
+        image_dimension,
+        tabular_dimension,
+        dropout,
+        image_hidden=128,
+        tabular_hidden=64,
+        tabular_output=32,
+        fusion_hidden=64,
+    ):
         super().__init__()
         self.image_branch = nn.Sequential(
-            nn.Linear(image_dimension, 128),
+            nn.Linear(image_dimension, image_hidden),
             nn.ReLU(),
-            nn.LayerNorm(128),
+            nn.LayerNorm(image_hidden),
             nn.Dropout(dropout),
         )
         self.tabular_branch = nn.Sequential(
-            nn.Linear(tabular_dimension, 64),
+            nn.Linear(tabular_dimension, tabular_hidden),
             nn.ReLU(),
-            nn.LayerNorm(64),
+            nn.LayerNorm(tabular_hidden),
             nn.Dropout(dropout),
-            nn.Linear(64, 32),
+            nn.Linear(tabular_hidden, tabular_output),
             nn.ReLU(),
         )
         self.fusion_head = nn.Sequential(
-            nn.Linear(160, 64),
+            nn.Linear(image_hidden + tabular_output, fusion_hidden),
             nn.ReLU(),
             nn.Dropout(dropout),
-            nn.Linear(64, 1),
+            nn.Linear(fusion_hidden, 1),
         )
 
     def forward(self, image_embedding, tabular):

@@ -44,15 +44,11 @@ def merge_all_datasets(
 
     era5["time"] = pd.to_datetime(era5["time"])
 
-    era5_pm25 = pd.merge(
-        era5,
-        pm25_selected,
-        on="time",
-        how="left",
-    )
-
     arpa = arpa.rename(columns={arpa_time_column: "time"})
-    arpa["time"] = pd.to_datetime(arpa["time"])
+    # ARPA timestamps are stored with an explicit UTC marker. The other
+    # intermediate tables currently use timezone-naive UTC timestamps, so
+    # remove only the timezone annotation before performing the exact join.
+    arpa["time"] = pd.to_datetime(arpa["time"], utc=True).dt.tz_localize(None)
 
     image_features = image_features.rename(columns={image_time_column: "time"})
     image_features["time"] = pd.to_datetime(image_features["time"])
@@ -60,7 +56,13 @@ def merge_all_datasets(
 
     merged_all = pd.merge(
         image_features,
-        era5_pm25,
+        era5,
+        on="time",
+        how="left",
+    )
+    merged_all = pd.merge(
+        merged_all,
+        pm25_selected,
         on="time",
         how="left",
     )

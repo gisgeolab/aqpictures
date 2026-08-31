@@ -15,6 +15,15 @@ env/
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
+# Local diagnostic notebooks used for thesis sensitivity analyses
+notebooks/diagnostics/
+
+# Diagnostic outputs retained locally only
+results/model_regularization_diagnostic/
+results/target_distribution_diagnostic/
+results/cnn_optimization_diagnostic/
+results/date_split_sensitivity_analysis/
+
 # IDE and editor settings
 .vscode/
 .idea/

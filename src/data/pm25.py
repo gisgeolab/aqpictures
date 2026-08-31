@@ -4,10 +4,26 @@ from pathlib import Path
 
 import pandas as pd
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 
 API_BASE = "https://eeadmz1-downloads-api-appservice.azurewebsites.net/"
 URLS_ENDPOINT = "ParquetFile/urls"
+
+
+def build_http_session():
+    retry = Retry(
+        total=5,
+        connect=5,
+        read=5,
+        backoff_factor=1,
+        status_forcelist=(429, 500, 502, 503, 504),
+        allowed_methods=frozenset({"GET", "POST"}),
+    )
+    session = requests.Session()
+    session.mount("https://", HTTPAdapter(max_retries=retry))
+    return session
 
 
 def extract_urls(text):
@@ -22,8 +38,10 @@ def extract_urls(text):
     return urls
 
 
-def download_file(url, out_path):
-    with requests.get(url, stream=True, timeout=300) as r:
+def download_file(url, out_path, session=None):
+    session = session or build_http_session()
+
+    with session.get(url, stream=True, timeout=300) as r:
         r.raise_for_status()
 
         with open(out_path, "wb") as f:
@@ -73,18 +91,31 @@ def download_pm25_data(
 
    # print("Request:", body)
 
-    response = requests.post(
-        API_BASE + URLS_ENDPOINT,
-        json=body,
-        timeout=180,
-    )
+    session = build_http_session()
+
+    try:
+        response = session.post(
+            API_BASE + URLS_ENDPOINT,
+            json=body,
+            timeout=180,
+        )
+    except requests.ConnectionError as exc:
+        raise ConnectionError(
+            "Could not connect to the EEA PM2.5 download service after "
+            "5 retries. Check the internet connection, VPN/proxy, and DNS, "
+            "then rerun this notebook cell."
+        ) from exc
     response.raise_for_status()
 
     urls = extract_urls(response.text)
     #print("Found parquet files:", len(urls))
 
     if len(urls) == 0:
-        raise ValueError("No parquet file URLs found from the API response.")
+        raise RuntimeError(
+            "The EEA API returned zero PM2.5 files for this request. "
+            "The existing CSV was not overwritten. This can happen when the "
+            "EEA real-time dataset is temporarily unavailable; retry later."
+        )
 
     for i, url in enumerate(urls, start=1):
         file_name = url.split("/")[-1]
@@ -92,7 +123,7 @@ def download_pm25_data(
 
         # print(f"[{i}/{len(urls)}] Downloading {file_name}")
 
-        download_file(url, out_path)
+        download_file(url, out_path, session=session)
         time.sleep(0.2)
 
     parquet_files = list(temp_dir.glob("*.parquet"))

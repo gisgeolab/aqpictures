@@ -4,20 +4,32 @@ import numpy as np
 import pandas as pd
 
 from sklearn.base import clone
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.linear_model import Ridge
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
-from sklearn.model_selection import GroupKFold, KFold, train_test_split
+from sklearn.model_selection import GroupKFold, KFold
 from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import StandardScaler
 
 
-def random_split(df, test_size=0.2, random_state=42):
-    """Return the original row-wise random split used as a reference experiment."""
-    development_df, test_df = train_test_split(
-        df,
-        test_size=test_size,
-        shuffle=True,
-        random_state=random_state,
-    )
-    return development_df.reset_index(drop=True), test_df.reset_index(drop=True)
+def get_feature_evaluation_models(random_state=42):
+    """Return the analytical models used for Notebook 3 feature evaluation."""
+
+    return {
+        "Ridge": Pipeline([
+            ("scaler", StandardScaler()),
+            ("model", Ridge(alpha=100.0)),
+        ]),
+        "Random Forest": RandomForestRegressor(
+            n_estimators=500,
+            max_depth=8,
+            min_samples_leaf=4,
+            min_samples_split=8,
+            max_features="sqrt",
+            random_state=random_state,
+            n_jobs=-1,
+        ),
+    }
 
 
 def balanced_month_group_split(
@@ -26,20 +38,19 @@ def balanced_month_group_split(
     test_size=0.2,
     random_state=42,
 ):
-    """Allocate complete dates to development/test within each calendar month.
+    """Allocate complete dates within each observed year-month.
 
-    Month imbalance is handled later with inverse-frequency sample weights,
-    which retains the longest possible observation period without allowing
-    months with greater webcam coverage to dominate model fitting or metrics.
+    This preserves coverage across the full observation period and prevents
+    records from the same date appearing in both development and hold-out data.
     """
     working = df.copy()
     timestamp = pd.to_datetime(working[time_column])
-    working["__month"] = timestamp.dt.month
+    working["__year_month"] = timestamp.dt.to_period("M")
     working["__date"] = timestamp.dt.normalize()
     rng = np.random.default_rng(random_state)
     test_dates = []
 
-    for _, month_df in working.groupby("__month"):
+    for _, month_df in working.groupby("__year_month"):
         dates = month_df["__date"].drop_duplicates().to_numpy(copy=True)
         rng.shuffle(dates)
         if len(dates) < 2:
@@ -50,7 +61,7 @@ def balanced_month_group_split(
     is_test = working["__date"].isin(test_dates)
     development = working.loc[~is_test].sort_values(time_column).copy()
     test = working.loc[is_test].sort_values(time_column).copy()
-    helper_columns = ["__month", "__date"]
+    helper_columns = ["__year_month", "__date"]
     return (
         development.drop(columns=helper_columns).reset_index(drop=True),
         test.drop(columns=helper_columns).reset_index(drop=True),
@@ -117,6 +128,7 @@ def evaluate_feature_set(
     group_column=None,
     balance_column=None,
     evaluate_test=True,
+    include_train_metrics=False,
 ):
     """Evaluate one feature set using CV and an independent hold-out set."""
     X_dev = development_df[feature_list].reset_index(drop=True)
@@ -141,10 +153,29 @@ def evaluate_feature_set(
             fold_model, X_dev.iloc[train_idx], y_dev.iloc[train_idx], train_weights
         )
         y_val_pred = fold_model.predict(X_dev.iloc[val_idx])
+        fold_record = {
+            "Fold": fold,
+            **evaluate_regression(
+                y_dev.iloc[val_idx],
+                y_val_pred,
+                validation_weights,
+            ),
+        }
+        if include_train_metrics:
+            y_train_pred = fold_model.predict(X_dev.iloc[train_idx])
+            train_metrics = evaluate_regression(
+                y_dev.iloc[train_idx],
+                y_train_pred,
+                train_weights,
+            )
+            fold_record.update(
+                {
+                    f"Train {metric}": value
+                    for metric, value in train_metrics.items()
+                }
+            )
         fold_results.append(
-            {"Fold": fold, **evaluate_regression(
-                y_dev.iloc[val_idx], y_val_pred, validation_weights
-            )}
+            fold_record
         )
 
     fold_results = pd.DataFrame(fold_results)
@@ -181,6 +212,128 @@ def evaluate_feature_set(
     return summary, fold_results, y_test, y_test_pred
 
 
+def build_leave_one_source_out_sets(feature_groups):
+    """Build the complete and leave-one-source-out feature configurations."""
+    all_features = [
+        feature
+        for features in feature_groups.values()
+        for feature in features
+    ]
+    if len(all_features) != len(set(all_features)):
+        raise ValueError("Feature groups contain duplicate variables.")
+
+    feature_sets = {"All Features": all_features}
+    for source, removed_features in feature_groups.items():
+        removed_features = set(removed_features)
+        feature_sets[f"All - {source}"] = [
+            feature
+            for feature in all_features
+            if feature not in removed_features
+        ]
+    return feature_sets
+
+
+def evaluate_leave_one_source_out(
+    model,
+    model_name,
+    feature_sets,
+    development_df,
+    target,
+    n_splits=5,
+    random_state=42,
+    group_column=None,
+    balance_column=None,
+    baseline_name="All Features",
+):
+    """Evaluate source removal and return paired fold-level changes."""
+    if baseline_name not in feature_sets:
+        raise ValueError(f"Missing baseline feature set: {baseline_name}")
+
+    summaries = []
+    fold_tables = []
+
+    for feature_set_name, feature_list in feature_sets.items():
+        summary, fold_results, _, _ = evaluate_feature_set(
+            model=model,
+            model_name=model_name,
+            feature_set_name=feature_set_name,
+            feature_list=feature_list,
+            development_df=development_df,
+            test_df=development_df,
+            target=target,
+            n_splits=n_splits,
+            random_state=random_state,
+            group_column=group_column,
+            balance_column=balance_column,
+            evaluate_test=False,
+        )
+        summaries.append(summary)
+        fold_tables.append(
+            fold_results.assign(**{"Feature Set": feature_set_name})
+        )
+
+    results = pd.concat(summaries, ignore_index=True)
+    fold_results = pd.concat(fold_tables, ignore_index=True)
+
+    baseline_row = results.loc[
+        results["Feature Set"].eq(baseline_name)
+    ].iloc[0]
+    results["CV RMSE Change"] = (
+        results["CV RMSE"] - baseline_row["CV RMSE"]
+    )
+    results["CV R2 Change"] = (
+        results["CV R2"] - baseline_row["CV R2"]
+    )
+
+    baseline_folds = (
+        fold_results.loc[
+            fold_results["Feature Set"].eq(baseline_name),
+            ["Fold", "RMSE", "R2"],
+        ]
+        .rename(
+            columns={
+                "RMSE": "All Features RMSE",
+                "R2": "All Features R2",
+            }
+        )
+    )
+    fold_changes = (
+        fold_results.loc[
+            ~fold_results["Feature Set"].eq(baseline_name)
+        ]
+        .merge(
+            baseline_folds,
+            on="Fold",
+            how="left",
+            validate="many_to_one",
+        )
+    )
+    fold_changes["Removed Source"] = (
+        fold_changes["Feature Set"]
+        .str.replace("All - ", "", regex=False)
+    )
+    fold_changes["RMSE Change"] = (
+        fold_changes["RMSE"] - fold_changes["All Features RMSE"]
+    )
+    fold_changes["R2 Change"] = (
+        fold_changes["R2"] - fold_changes["All Features R2"]
+    )
+
+    change_summary = (
+        fold_changes
+        .groupby("Removed Source", as_index=False)
+        .agg(
+            **{
+                "RMSE Change Mean": ("RMSE Change", "mean"),
+                "RMSE Change Std": ("RMSE Change", "std"),
+                "R2 Change Mean": ("R2 Change", "mean"),
+                "R2 Change Std": ("R2 Change", "std"),
+            }
+        )
+    )
+    return results, fold_results, fold_changes, change_summary
+
+
 def evaluate_holdout(
     model,
     feature_list,
@@ -215,25 +368,30 @@ def clean_reference_normalize(
     transform_df,
     feature_list,
     target,
-    clean_quantile=0.2,
-    condition_columns=("season", "is_daytime"),
+    clean_limit=20.0,
+    condition_columns=("month", "is_daytime"),
     minimum_reference_samples=10,
 ):
-    """Normalize image features against clean-air references fitted on training data."""
-    threshold = reference_df[target].quantile(clean_quantile)
-    clean = reference_df.loc[reference_df[target] <= threshold]
+    """Normalize image features using training-only clean-air references."""
+
+    clean_reference = reference_df.loc[reference_df[target].le(clean_limit)]
+    if clean_reference.empty:
+        raise ValueError("No clean-air reference observations are available.")
+
     transformed = transform_df.copy()
-    global_median = clean[feature_list].median()
-    global_iqr = clean[feature_list].quantile(0.75) - clean[feature_list].quantile(0.25)
-    global_iqr = global_iqr.replace(0, 1.0)
+    global_median = clean_reference[feature_list].median()
+    global_iqr = (
+        clean_reference[feature_list].quantile(0.75)
+        - clean_reference[feature_list].quantile(0.25)
+    ).replace(0, 1.0)
+    transformed.loc[:, feature_list] = (
+        transform_df[feature_list] - global_median
+    ) / global_iqr
 
-    for feature in feature_list:
-        transformed[feature] = (
-            transformed[feature] - global_median[feature]
-        ) / global_iqr[feature]
-
-    grouped_clean = clean.groupby(list(condition_columns), dropna=False)
-    for condition, group in grouped_clean:
+    grouped_reference = clean_reference.groupby(
+        list(condition_columns), dropna=False
+    )
+    for condition, group in grouped_reference:
         if len(group) < minimum_reference_samples:
             continue
         if not isinstance(condition, tuple):
@@ -248,99 +406,147 @@ def clean_reference_normalize(
             transform_df.loc[mask, feature_list] - median
         ) / iqr
 
-    return transformed, threshold
+    return transformed, len(clean_reference)
 
 
-def evaluate_clean_reference_feature_set(
+def evaluate_clean_reference_comparison(
     model,
     model_name,
-    feature_list,
+    model_features,
+    reference_features,
     development_df,
     test_df,
     target,
     n_splits=5,
     random_state=42,
     group_column=None,
-    balance_column=None,
-    clean_quantile=0.2,
-    evaluate_test=False,
+    clean_limit=20.0,
+    condition_columns=("month", "is_daytime"),
+    minimum_reference_samples=10,
 ):
-    """Evaluate clean-reference normalization fitted independently in every fold."""
-    fold_results = []
-    for fold, (train_idx, val_idx) in enumerate(
+    """Compare raw and clean-reference features on identical grouped folds."""
+
+    required = set(model_features) | set(reference_features) | {
+        target, *condition_columns,
+    }
+    for name, frame in (("development", development_df), ("test", test_df)):
+        missing = required - set(frame.columns)
+        if missing:
+            raise ValueError(f"Missing {name} columns: {sorted(missing)}")
+
+    fold_records = []
+    prediction_frames = []
+    for fold, (train_idx, validation_idx) in enumerate(
         _fold_iterator(development_df, n_splits, random_state, group_column),
         start=1,
     ):
         train = development_df.iloc[train_idx]
-        validation = development_df.iloc[val_idx]
-        train_norm, _ = clean_reference_normalize(
-            train, train, feature_list, target, clean_quantile
+        validation = development_df.iloc[validation_idx]
+
+        raw_model = clone(model)
+        raw_model.fit(train[model_features], train[target])
+        raw_prediction = raw_model.predict(validation[model_features])
+
+        normalized_train, reference_samples = clean_reference_normalize(
+            train,
+            train,
+            reference_features,
+            target,
+            clean_limit=clean_limit,
+            condition_columns=condition_columns,
+            minimum_reference_samples=minimum_reference_samples,
         )
-        validation_norm, _ = clean_reference_normalize(
-            train, validation, feature_list, target, clean_quantile
+        normalized_validation, _ = clean_reference_normalize(
+            train,
+            validation,
+            reference_features,
+            target,
+            clean_limit=clean_limit,
+            condition_columns=condition_columns,
+            minimum_reference_samples=minimum_reference_samples,
         )
-        fold_model = clone(model)
-        train_weights = (
-            inverse_frequency_weights(train[balance_column])
-            if balance_column is not None else None
-        )
-        validation_weights = (
-            inverse_frequency_weights(validation[balance_column])
-            if balance_column is not None else None
-        )
-        _fit_model(
-            fold_model, train_norm[feature_list], train[target], train_weights
-        )
-        prediction = fold_model.predict(validation_norm[feature_list])
-        fold_results.append(
-            {"Fold": fold, **evaluate_regression(
-                validation[target], prediction, validation_weights
-            )}
+        normalized_model = clone(model)
+        normalized_model.fit(normalized_train[model_features], train[target])
+        normalized_prediction = normalized_model.predict(
+            normalized_validation[model_features]
         )
 
-    fold_results = pd.DataFrame(fold_results)
-    _, threshold = clean_reference_normalize(
-        development_df, development_df, feature_list, target, clean_quantile
-    )
-    summary_values = {
+        for representation, prediction in (
+            ("Raw", raw_prediction),
+            ("Clean-reference normalized", normalized_prediction),
+        ):
+            fold_records.append({
+                "Fold": fold,
+                "Representation": representation,
+                "Clean reference samples": reference_samples,
+                **evaluate_regression(validation[target], prediction),
+            })
+        prediction_frames.append(pd.DataFrame({
+            "Fold": fold,
+            "Observed": validation[target].to_numpy(),
+            "Raw Predicted": raw_prediction,
+            "Normalized Predicted": normalized_prediction,
+        }))
+
+    fold_results = pd.DataFrame(fold_records)
+    cv_predictions = pd.concat(prediction_frames, ignore_index=True)
+    summary_records = []
+    for representation, group in fold_results.groupby("Representation", sort=False):
+        summary_records.append({
             "Model": model_name,
-            "Feature Set": "Clean-reference normalized image",
-            "Variables": len(feature_list),
-            "Clean threshold": threshold,
-            "CV MAE": fold_results["MAE"].mean(),
-            "CV MAE Std": fold_results["MAE"].std(),
-            "CV RMSE": fold_results["RMSE"].mean(),
-            "CV RMSE Std": fold_results["RMSE"].std(),
-            "CV R2": fold_results["R2"].mean(),
-            "CV R2 Std": fold_results["R2"].std(),
-    }
-    y_test = None
-    test_prediction = None
-    if evaluate_test:
-        development_norm, _ = clean_reference_normalize(
-            development_df, development_df, feature_list, target, clean_quantile
-        )
-        test_norm, _ = clean_reference_normalize(
-            development_df, test_df, feature_list, target, clean_quantile
-        )
-        final_model = clone(model)
-        development_weights = (
-            inverse_frequency_weights(development_df[balance_column])
-            if balance_column is not None else None
-        )
-        _fit_model(
-            final_model,
-            development_norm[feature_list],
-            development_df[target],
-            development_weights,
-        )
-        test_prediction = final_model.predict(test_norm[feature_list])
-        y_test = test_df[target].reset_index(drop=True)
-        test_weights = (
-            inverse_frequency_weights(test_df[balance_column])
-            if balance_column is not None else None
-        )
-        test_metrics = evaluate_regression(y_test, test_prediction, test_weights)
-        summary_values.update({f"Test {key}": value for key, value in test_metrics.items()})
-    summary = pd.DataFrame([summary_values])
-    return summary, fold_results, y_test, test_prediction
+            "Representation": representation,
+            "Variables": len(model_features),
+            "Clean-air limit": clean_limit,
+            "CV MAE": group["MAE"].mean(),
+            "CV MAE Std": group["MAE"].std(),
+            "CV RMSE": group["RMSE"].mean(),
+            "CV RMSE Std": group["RMSE"].std(),
+            "CV R2": group["R2"].mean(),
+            "CV R2 Std": group["R2"].std(),
+        })
+    summary = pd.DataFrame(summary_records)
+
+    raw_model = clone(model)
+    raw_model.fit(development_df[model_features], development_df[target])
+    raw_test_prediction = raw_model.predict(test_df[model_features])
+    normalized_development, _ = clean_reference_normalize(
+        development_df,
+        development_df,
+        reference_features,
+        target,
+        clean_limit=clean_limit,
+        condition_columns=condition_columns,
+        minimum_reference_samples=minimum_reference_samples,
+    )
+    normalized_test, _ = clean_reference_normalize(
+        development_df,
+        test_df,
+        reference_features,
+        target,
+        clean_limit=clean_limit,
+        condition_columns=condition_columns,
+        minimum_reference_samples=minimum_reference_samples,
+    )
+    normalized_model = clone(model)
+    normalized_model.fit(
+        normalized_development[model_features], development_df[target]
+    )
+    normalized_test_prediction = normalized_model.predict(
+        normalized_test[model_features]
+    )
+
+    for representation, prediction in (
+        ("Raw", raw_test_prediction),
+        ("Clean-reference normalized", normalized_test_prediction),
+    ):
+        metrics = evaluate_regression(test_df[target], prediction)
+        mask = summary["Representation"].eq(representation)
+        for metric, value in metrics.items():
+            summary.loc[mask, f"Test {metric}"] = value
+
+    test_predictions = pd.DataFrame({
+        "Observed": test_df[target].to_numpy(),
+        "Raw Predicted": raw_test_prediction,
+        "Normalized Predicted": normalized_test_prediction,
+    })
+    return summary, fold_results, cv_predictions, test_predictions

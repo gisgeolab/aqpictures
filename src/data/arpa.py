@@ -67,9 +67,14 @@ def merge_arpa_tables(
         errors="coerce",
     )
 
+    # ARPA exports all timestamps in fixed Italian standard time (UTC+1),
+    # including dates that fall within the daylight-saving period. Convert
+    # them to UTC by subtracting the provider-specified fixed offset, then
+    # explicitly mark the resulting timestamps as UTC.
     combined[time_column] = (
         combined[time_column] - pd.Timedelta(hours=utc_offset_hours)
     )
+    combined[time_column] = combined[time_column].dt.tz_localize("UTC")
 
     combined = combined.sort_values(time_column)
 

@@ -23,6 +23,10 @@ DEFAULT_TRAINING_CONFIG = {
     "weight_decay": 1e-4,
     "dropout": 0.30,
     "internal_validation_size": 0.15,
+    "image_hidden": 128,
+    "tabular_hidden": 64,
+    "tabular_output": 32,
+    "fusion_hidden": 64,
 }
 
 
@@ -237,7 +241,13 @@ def train_fusion_cross_validation(
             ]
         ]
         model = EmbeddingFusionRegressor(
-            embeddings.shape[1], tabular_values.shape[1], config["dropout"]
+            embeddings.shape[1],
+            tabular_values.shape[1],
+            config["dropout"],
+            image_hidden=config["image_hidden"],
+            tabular_hidden=config["tabular_hidden"],
+            tabular_output=config["tabular_output"],
+            fusion_hidden=config["fusion_hidden"],
         ).to(device)
         optimizer = torch.optim.AdamW(
             model.parameters(),
@@ -398,6 +408,10 @@ def fit_and_evaluate_fusion_holdout(
         development_embeddings.shape[1],
         development_tabular.shape[1],
         config["dropout"],
+        image_hidden=config["image_hidden"],
+        tabular_hidden=config["tabular_hidden"],
+        tabular_output=config["tabular_output"],
+        fusion_hidden=config["fusion_hidden"],
     ).to(device)
     optimizer = torch.optim.AdamW(
         model.parameters(),

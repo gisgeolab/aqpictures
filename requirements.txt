@@ -9,11 +9,14 @@ numpy
 pandas
 scipy
 pyarrow
+openpyxl
 
 # Visualization and data-quality analysis
 matplotlib
 seaborn
 missingno
+geopandas
+contextily
 
 # Machine learning and deep learning
 scikit-learn
