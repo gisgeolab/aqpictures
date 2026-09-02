@@ -18,11 +18,18 @@ env/
 # Local diagnostic notebooks used for thesis sensitivity analyses
 notebooks/diagnostics/
 
+# External validation data, notebooks, and generated outputs are kept locally only
+external validation/
+
+# Local plotting and utility scripts are kept locally only
+scripts/
+
 # Diagnostic outputs retained locally only
 results/model_regularization_diagnostic/
 results/target_distribution_diagnostic/
 results/cnn_optimization_diagnostic/
 results/date_split_sensitivity_analysis/
+results/day_night_diagnostic/
 
 # IDE and editor settings
 .vscode/

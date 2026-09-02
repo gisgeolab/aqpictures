@@ -10,6 +10,76 @@ from scipy.stats import linregress
 from src.plot_style import COLORS, style_axes
 
 
+def plot_dimensionless_metric_comparison(
+    benchmark_results,
+    output_path,
+    model_order=None,
+    figure_size=(9.2, 4.8),
+    dpi=300,
+):
+    """Plot MAPE, SMAPE, and NRMSE as grouped CV bars on one y-axis."""
+
+    required = [
+        "Model", "CV MAPE", "CV MAPE Std", "CV SMAPE", "CV SMAPE Std",
+        "CV NRMSE", "CV NRMSE Std",
+    ]
+    missing = [column for column in required if column not in benchmark_results]
+    if missing:
+        raise ValueError(f"Missing benchmark columns: {missing}")
+
+    plot_df = benchmark_results[required].copy()
+    if model_order is not None:
+        order = [model for model in model_order if model in plot_df["Model"].tolist()]
+        order += [model for model in plot_df["Model"] if model not in order]
+        plot_df["Model"] = pd.Categorical(plot_df["Model"], order, ordered=True)
+        plot_df = plot_df.sort_values("Model").reset_index(drop=True)
+
+    models = plot_df["Model"].astype(str).tolist()
+    labels = [
+        "MAPE", "SMAPE", "NRMSE",
+    ]
+    value_columns = ["CV MAPE", "CV SMAPE", "CV NRMSE"]
+    std_columns = ["CV MAPE Std", "CV SMAPE Std", "CV NRMSE Std"]
+    colours = [COLORS["primary"], COLORS["secondary"], COLORS["tertiary"]]
+
+    fig, ax = plt.subplots(figsize=figure_size)
+    positions = np.arange(len(plot_df))
+    width = 0.24
+    for offset, (label, value_column, std_column, colour) in enumerate(
+        zip(labels, value_columns, std_columns, colours)
+    ):
+        ax.bar(
+            positions + (offset - 1) * width,
+            plot_df[value_column].to_numpy(dtype=float),
+            width=width,
+            yerr=plot_df[std_column].to_numpy(dtype=float),
+            label=label,
+            color=colour,
+            alpha=0.72,
+            edgecolor="white",
+            linewidth=0.7,
+            error_kw={"ecolor": COLORS["reference"], "elinewidth": 0.9, "capsize": 2},
+        )
+
+    label_map = {
+        "Decision Tree": "Decision\nTree",
+        "Random Forest": "Random\nForest",
+        "Gradient Boosting": "Gradient\nBoosting",
+    }
+    ax.set_xticks(positions, [label_map.get(model, model) for model in models])
+    ax.set_ylabel("Metric value (%)")
+    ax.set_title("Supplementary dimensionless error metrics", pad=8)
+    ax.legend(frameon=False, ncol=3, loc="upper center", bbox_to_anchor=(0.5, -0.14))
+    style_axes(ax, grid_axis="y")
+    fig.tight_layout(rect=(0, 0.05, 1, 1))
+
+    output_path = Path(output_path)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    fig.savefig(output_path, dpi=dpi, bbox_inches="tight", facecolor="white")
+    fig.savefig(output_path.with_suffix(".pdf"), bbox_inches="tight", facecolor="white")
+    return fig, ax
+
+
 def plot_cv_test_comparison(
     benchmark_results,
     fold_results,

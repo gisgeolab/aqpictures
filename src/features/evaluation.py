@@ -81,10 +81,56 @@ def temporal_split(df, time_column="time", test_size=0.2):
 
 
 def evaluate_regression(y_true, y_pred, sample_weight=None):
+    """Return absolute and dimensionless regression metrics.
+
+    MAPE and SMAPE are expressed as percentages. NRMSE is normalised by the
+    (optionally weighted) mean observed concentration and is also expressed as
+    a percentage. Zero observations are excluded from MAPE only; SMAPE assigns
+    a zero contribution when both the observation and prediction are zero.
+    """
+    observed = np.asarray(y_true, dtype=float)
+    predicted = np.asarray(y_pred, dtype=float)
+    weights = None if sample_weight is None else np.asarray(sample_weight, dtype=float)
+
+    absolute_error = np.abs(observed - predicted)
+    rmse = np.sqrt(
+        mean_squared_error(observed, predicted, sample_weight=weights)
+    )
+
+    nonzero_observed = np.abs(observed) > np.finfo(float).eps
+    if nonzero_observed.any():
+        mape_weights = None if weights is None else weights[nonzero_observed]
+        mape = 100 * np.average(
+            absolute_error[nonzero_observed]
+            / np.abs(observed[nonzero_observed]),
+            weights=mape_weights,
+        )
+    else:
+        mape = np.nan
+
+    smape_denominator = np.abs(observed) + np.abs(predicted)
+    smape_terms = np.divide(
+        2 * absolute_error,
+        smape_denominator,
+        out=np.zeros_like(absolute_error),
+        where=smape_denominator > np.finfo(float).eps,
+    )
+    smape = 100 * np.average(smape_terms, weights=weights)
+
+    mean_observed = np.average(observed, weights=weights)
+    nrmse = (
+        100 * rmse / mean_observed
+        if np.abs(mean_observed) > np.finfo(float).eps
+        else np.nan
+    )
+
     return {
-        "MAE": mean_absolute_error(y_true, y_pred, sample_weight=sample_weight),
-        "RMSE": np.sqrt(mean_squared_error(y_true, y_pred, sample_weight=sample_weight)),
-        "R2": r2_score(y_true, y_pred, sample_weight=sample_weight),
+        "MAE": mean_absolute_error(observed, predicted, sample_weight=weights),
+        "RMSE": rmse,
+        "R2": r2_score(observed, predicted, sample_weight=weights),
+        "MAPE": mape,
+        "SMAPE": smape,
+        "NRMSE": nrmse,
     }
 
 
@@ -180,16 +226,13 @@ def evaluate_feature_set(
 
     fold_results = pd.DataFrame(fold_results)
     summary_values = {
-            "Model": model_name,
-            "Feature Set": feature_set_name,
-            "Variables": len(feature_list),
-            "CV MAE": fold_results["MAE"].mean(),
-            "CV MAE Std": fold_results["MAE"].std(),
-            "CV RMSE": fold_results["RMSE"].mean(),
-            "CV RMSE Std": fold_results["RMSE"].std(),
-            "CV R2": fold_results["R2"].mean(),
-            "CV R2 Std": fold_results["R2"].std(),
+        "Model": model_name,
+        "Feature Set": feature_set_name,
+        "Variables": len(feature_list),
     }
+    for metric in ("MAE", "RMSE", "R2", "MAPE", "SMAPE", "NRMSE"):
+        summary_values[f"CV {metric}"] = fold_results[metric].mean()
+        summary_values[f"CV {metric} Std"] = fold_results[metric].std()
     y_test = None
     y_test_pred = None
     if evaluate_test:
