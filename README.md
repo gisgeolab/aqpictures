@@ -22,7 +22,7 @@ aqpictures/
 
 ### Additional branch
 
-The [`pm25-benchmark_Q_Tuo`](https://github.com/gisgeolab/aqpictures/tree/pm25-benchmark_Q_Tuo) branch contains an extended workflow developed by **Qingxuan Tuo** as part of a MSc thesis project, focused on **image-based PM2.5 estimation from fixed webcam imagery**, multi-source environmental data integration, and the implementation and comparison of different modelling strategies.
+The [`pm25-benchmark_Q_Tuo`](https://github.com/gisgeolab/aqpictures/tree/pm25-benchmark_Q_Tuo) branch contains an extended workflow developed by *Qingxuan Tuo* as part of a MSc thesis project, focused on **image-based PM2.5 estimation from fixed webcam imagery**, multi-source environmental data integration, and the implementation and comparison of different modelling strategies.
 
 ## How to use this repository
 
